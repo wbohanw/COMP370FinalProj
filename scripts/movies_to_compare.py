@@ -5,6 +5,7 @@ import json
 from bs4 import BeautifulSoup
 from datetime import datetime
 from dateutil.relativedelta import relativedelta
+import re
 
 MONTH_MAP = {
     "Jan": "01", "Feb": "02", "Mar": "03", "Apr": "04", "May": "05", "Jun": "06",
@@ -37,8 +38,12 @@ def main():
     cur_month_str, next_month_str = get_release_date_range(release_date)
     print(f"we will look at movies released from {cur_month_str} to {next_month_str}")
     
-    get_movies_rotten_tomatoes(websites_base_for_other_movies[0], cur_month_str, next_month_str)
+    movie_names = get_movies_rotten_tomatoes(websites_base_for_other_movies[0], cur_month_str, next_month_str)
     #get_movies_netflix(websites_base_for_other_movies[1])
+
+    with open("data/movie_names.json", 'w', encoding='utf-8') as f:
+        json.dump(movie_names, f, ensure_ascii=False, indent=4)
+            
     
 
 def get_urls():
@@ -91,8 +96,52 @@ def get_release_date_range(release_date):
 
 def get_movies_rotten_tomatoes(base_url, cur_month_str, next_month_str):
     #the website is 2025 but divided by months
+    start_date_obj = datetime.strptime(cur_month_str, "%Y-%m-%d")
+    end_date_obj = datetime.strptime(next_month_str, "%Y-%m-%d")
+    
+    if end_date_obj.month == 12:
+        stop_date_obj = end_date_obj.replace(year=end_date_obj.year + 1, month=1)
+    else:
+        stop_date_obj = end_date_obj.replace(month=end_date_obj.month + 1)
+    
+    start_month_header = start_date_obj.strftime("%B").upper()
+    stop_month_header = stop_date_obj.strftime("%B").upper()
+
+    #get the rotten tomato html
     movies_rot_tom_page = check_cache("other_movies", base_url,"")
     soup = BeautifulSoup(movies_rot_tom_page, "html.parser")
+    
+    #month has a h2 tag
+    start_node = soup.find(lambda tag: tag.name == "h2" and start_month_header in tag.get_text().upper())
+    
+    movie_names = []
+    for sibling in start_node.find_next_siblings():
+        
+        if sibling.name == "h2":
+            if stop_month_header in sibling.get_text().upper():
+                break
+            continue
+
+        #get movie details
+        movie_wrappers = sibling.find_all("p", class_="apple-news-link-wrap")
+        
+        for wrap in movie_wrappers:
+            #movie title
+            title = wrap.find("a", class_="title")
+            if not title:
+                continue
+            
+            movie_name = title.get_text(strip=True)
+
+            #verify is movie year is 2025 and not a re-released 2024 in 2025 movie
+            year_span = wrap.find("span", class_="year")
+            if not year_span or "(2025)" not in year_span.get_text():
+                continue
+
+            if movie_name not in movie_names:
+                movie_names.append(movie_name)
+
+    return movie_names
     
     
 def get_movies_netflix(base_url):
