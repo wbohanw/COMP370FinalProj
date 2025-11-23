@@ -1,5 +1,6 @@
-COMP 370 final project
-
+COMP 370 final project (to format later)
+Project 2: Movie Release
+Movie picked: Kpop Demon Hunters
 ## Reddit Scraper (Direct Web Scraping with OCR)
 
 Scrapes Reddit posts and comments with direct scraping.
