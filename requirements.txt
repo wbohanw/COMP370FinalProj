@@ -1,0 +1,15 @@
+# Reddit API wrapper (for scraper.py)
+praw>=7.7.0
+
+# HTTP requests
+requests>=2.31.0
+
+# HTML parsing (for scraper_direct.py)
+beautifulsoup4>=4.12.0
+
+# Image processing
+Pillow>=10.0.0
+
+# OCR library
+rapidocr-onnxruntime>=1.3.0
+
