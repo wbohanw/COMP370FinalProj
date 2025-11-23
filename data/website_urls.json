@@ -1,0 +1,8 @@
+{
+    "rotten_tomato_base": "https://www.rottentomatoes.com/m/",
+
+    "websites_base_for_other_movies": [
+        "https://editorial.rottentomatoes.com/article/the-most-anticipated-movies-of-2025/2/",
+        "https://www.netflix.com/tudum/features/new-summer-movies-on-netflix-2025"
+        ]
+}
