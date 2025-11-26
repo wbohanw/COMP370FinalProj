@@ -1,6 +1,8 @@
 COMP 370 final project (to format later)
 Project 2: Movie Release
 Movie picked: Kpop Demon Hunters
+
+
 ## Reddit Scraper (Direct Web Scraping with OCR)
 
 Scrapes Reddit posts and comments with direct scraping.
@@ -26,3 +28,28 @@ print(data['title'])           # Post title
 print(data['comments'])        # All comments (nested)
 print(data['ocr_results'])     # Text extracted from images
 ```
+
+## Data collection
+
+- **`data/collected_data/`** - Individual JSON files for each movie containing scraped posts and comments
+  - `28_Years_Later.json`
+  - `Ballerina.json`
+  - `Bride_Hard.json`
+  - `Dangerous_Animals.json`
+  - `Elio.json`
+  - `F1_The_Movie.json`
+  - `Happy_Gilmore_2.json`
+  - `How_to_Train_Your_Dragon.json`
+  - `Kpop_Demon_Hunters.json`
+  - `M3GAN_2.0.json`
+  - `Materialists.json`
+
+- **`data/pre-data/`** - Search results and preliminary data
+  - `main_movie_search_results.json` - Reddit post URLs for main movie
+  - `reddit_movie_search_results.json` - Reddit post URLs for all movies
+
+- **`data/backup/`** - Backup copies of collected data
+
+- **`data/all_selected_movies.json`** - List of all movies being analyzed
+- **`data/main_movie.json`** - Primary movie focus (Kpop Demon Hunters)
+
