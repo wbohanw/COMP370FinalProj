@@ -4,14 +4,13 @@ import sys
 from pathlib import Path
 
 # Add utils to path
-sys.path.append(str(Path(__file__).parent / 'utils'))
+sys.path.append(str(Path(__file__).parent))
 from bs4_direct import RedditScraperDirect
 
 
 class MoviePostsParser:
-    def __init__(self, posts_per_movie: int = 50, top_comments_limit: int = 1):
+    def __init__(self, top_comments_limit: int = 1):
         self.scraper = RedditScraperDirect()
-        self.posts_per_movie = posts_per_movie
         self.top_comments_limit = top_comments_limit
         
     def get_top_comments(self, comments, limit=5):
@@ -91,7 +90,7 @@ class MoviePostsParser:
         print(f"{'='*70}")
         
         # Select first N posts
-        selected_urls = post_urls[:self.posts_per_movie]
+        selected_urls = post_urls
         print(f"Parsing {len(selected_urls)} posts...")
         
         posts = []
@@ -132,9 +131,7 @@ class MoviePostsParser:
         print(f"STARTING DETAILED POST PARSING")
         print(f"{'#'*70}")
         print(f"Total Movies: {total_movies}")
-        print(f"Posts per Movie: {self.posts_per_movie}")
         print(f"Top Comments per Post: {self.top_comments_limit}")
-        print(f"Total Posts to Parse: {total_movies * self.posts_per_movie}")
         print(f"{'#'*70}")
         
         for i, (movie_name, post_urls) in enumerate(search_results.items(), 1):
@@ -165,7 +162,7 @@ class MoviePostsParser:
         """
         import os
         
-        output_dir = '/Users/bohan/Desktop/COMP370/COMP370FinalProj/data/parsed_movie_posts'
+        output_dir = '/Users/eloisefreydier/Desktop/comp370 final project/COMP370FinalProj/data/parsed_movie_posts'
         
         if incremental:
             prefix = "💾 Saving incremental progress"
@@ -192,21 +189,43 @@ class MoviePostsParser:
 
 
 def main():
-    # Load search results
-    search_results_file = '/Users/bohan/Desktop/COMP370/COMP370FinalProj/data/reddit_movie_search_results.json'
+    # Load search results from the movie_search_results directory
+    search_results = {}
+    search_results_dir = '/Users/eloisefreydier/Desktop/comp370 final project/COMP370FinalProj/data/movie_search_results'
     
     print("Loading search results...")
-    with open(search_results_file, 'r') as f:
-        search_results = json.load(f)
+    for json_file in Path(search_results_dir).glob('*.json'):
+        with open(json_file, 'r') as f:
+            movie_data = json.load(f)
+            search_results.update(movie_data)
     
     print(f"✓ Loaded search results for {len(search_results)} movies")
     
-    # Create parser and process all movies
-    parser = MoviePostsParser(posts_per_movie=50, top_comments_limit=1)
-    results = parser.parse_all_movies(search_results)
+    # Check which movies are already done
+    output_dir = '/Users/eloisefreydier/Desktop/comp370 final project/COMP370FinalProj/data/parsed_movie_posts'
+    import os
+    os.makedirs(output_dir, exist_ok=True)
     
-    # Save final results
-    parser.save_results(results, incremental=False)
+    completed_movies = set()
+    if os.path.exists(output_dir):
+        for json_file in Path(output_dir).glob('*.json'):
+            movie_name = json_file.stem.replace('_', ' ')
+            completed_movies.add(movie_name)
+    
+    print(f"✓ Already completed: {len(completed_movies)} movies")
+    if completed_movies:
+        print(f"  {', '.join(list(completed_movies)[:3])}...")
+    
+    # Only process incomplete movies
+    remaining_movies = {k: v for k, v in search_results.items() if k not in completed_movies}
+    print(f"✓ Remaining to process: {len(remaining_movies)} movies")
+    
+    # Create parser and process remaining movies
+    parser = MoviePostsParser(top_comments_limit=1)
+    results = parser.parse_all_movies(remaining_movies)
+    
+    # Save results incrementally
+    parser.save_results(results, incremental=True)
     
     # Print final summary
     print(f"\n\n{'#'*70}")

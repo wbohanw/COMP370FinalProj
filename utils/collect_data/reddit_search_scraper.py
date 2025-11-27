@@ -4,7 +4,7 @@ import json
 import time
 from urllib.parse import quote_plus
 from typing import Dict, List
-
+from datetime import datetime
 
 class RedditSearchScraper:
     def __init__(self, user_agent: str = None):
@@ -12,74 +12,100 @@ class RedditSearchScraper:
         self.session.headers.update({
             'User-Agent': user_agent or 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
         })
+     
+    def is_highly_relevant_to_movie(self, title: str, selftext: str, movie_name: str) -> bool:
+        """
+        Only include posts that mention the movie AND contain movie-related keywords.
+        """
+        combined = (title + " " + selftext).lower()
+        movie_lower = movie_name.lower()
         
-    def search_movie(self, movie_name: str, max_links: int = 200) -> List[str]:
-        """
-        Search Reddit for a movie name and collect up to max_links post URLs.
-        """
-        print(f"\n{'='*60}")
-        print(f"Searching for: {movie_name}")
-        print(f"{'='*60}")
+        # Must contain the movie name
+        if movie_lower not in combined:
+            return False
+        
+        # Must contain at least one movie-related keyword
+        movie_keywords = [
+            'movie', 'film', 'release', 'theater', 'streaming', 'watch',
+            'trailer', 'review', 'discussion', 'premiere', 'box office',
+            'cast', 'director', 'actor', 'actress', 'imdb', 'cinema',
+            'screening', 'dvd', 'blu-ray', 'netflix', 'hulu', 'disney',
+            'amazon prime', 'plot', 'scene', 'ending', 'spoiler'
+        ]
+        
+        has_movie_keyword = any(keyword in combined for keyword in movie_keywords)
+        
+        return has_movie_keyword
+    
+    def search_movie(self, movie_name: str, max_links: int = 500) -> List[str]:
+        """Search Reddit with HIGH relevance filtering."""
+        print(f"\nSearching for: {movie_name}")
         
         links = []
-        after = None  # Reddit's pagination token
+        after = None
+        # the first movie was released on June 6 so did -2 weeks
+        movie_date_range_start = int(datetime(2025, 5, 23).timestamp())
+        # last movie was released on July 25 so did +2 weeks
+        movie_date_range_end = int(datetime(2025, 8, 1).timestamp())
+        pages_checked = 0
         
-        while len(links) < max_links:
+        while len(links) < max_links and pages_checked < 20:  # Limit pages to avoid bad results
             try:
-                # Construct search URL with JSON endpoint
-                search_query = quote_plus(movie_name)
-                url = f"https://www.reddit.com/search.json?q={search_query}&sort=relevance&type=link"
+                search_query = quote_plus(f'"{movie_name}"')  # Exact phrase search
+                url = f"https://www.reddit.com/search.json?q={search_query}&sort=relevance&t=year&type=link"
+
                 
                 if after:
                     url += f"&after={after}"
                 
-                # Add delay to be respectful to Reddit's servers
-                time.sleep(2)
+                time.sleep(3)
+                pages_checked += 1
                 
-                print(f"Fetching page (current links: {len(links)})...")
                 response = self.session.get(url, timeout=15)
                 response.raise_for_status()
                 
                 data = response.json()
-                
-                # Extract posts from the response
                 posts = data.get('data', {}).get('children', [])
                 
                 if not posts:
-                    print(f"No more posts found. Total links collected: {len(links)}")
                     break
                 
-                # Extract permalink for each post
                 for post in posts:
                     post_data = post.get('data', {})
+                    created_utc = post_data.get('created_utc', 0)
+                    title = post_data.get('title', '')
+                    selftext = post_data.get('selftext', '')
                     permalink = post_data.get('permalink')
+                    
+                    # Filter 1: Date range (June-July 2025)
+                    if not (movie_date_range_start <= created_utc < movie_date_range_end):
+                        continue
+                    
+                    # Filter 3: HIGH relevance to THIS movie
+                    if not self.is_highly_relevant_to_movie(title, selftext, movie_name):
+                        continue
                     
                     if permalink:
                         full_url = f"https://www.reddit.com{permalink}"
                         links.append(full_url)
+                        print(f"  ✓ Found: {title[:60]}...")
                         
                         if len(links) >= max_links:
                             break
                 
-                # Get pagination token for next page
-                after = data.get('data', {}).get('after')
+                if len(links) >= max_links:
+                    break
                 
+                after = data.get('data', {}).get('after')
                 if not after:
-                    print(f"Reached end of results. Total links collected: {len(links)}")
                     break
                     
-            except requests.exceptions.RequestException as e:
-                print(f"Request error: {str(e)}")
-                break
-            except json.JSONDecodeError as e:
-                print(f"JSON parse error: {str(e)}")
-                break
             except Exception as e:
-                print(f"Unexpected error: {str(e)}")
+                print(f"  ⚠️  Error: {str(e)}")
                 break
         
-        print(f"✓ Collected {len(links)} links for '{movie_name}'")
-        return links[:max_links]  # Ensure we don't exceed max_links
+        print(f"  ✓ Collected {len(links)} highly relevant posts")
+        return links
     
     def scrape_all_movies(self, movies: List[str], max_links_per_movie: int = 200) -> Dict[str, List[str]]:
         """
@@ -108,7 +134,7 @@ class RedditSearchScraper:
 def main():
     # Load movie names from JSON file
     # movies_file = '/Users/bohan/Desktop/COMP370/COMP370FinalProj/data/all_selected_movies.json'
-    movies_file = '/Users/bohan/Desktop/COMP370/COMP370FinalProj/data/select_movie.json'
+    movies_file = '/Users/eloisefreydier/Desktop/comp370 final project/COMP370FinalProj/data/all_selected_movies.json'
     print("Loading movie names...")
     with open(movies_file, 'r') as f:
         movies = json.load(f)
@@ -120,7 +146,7 @@ def main():
     results = scraper.scrape_all_movies(movies, max_links_per_movie=200)
     
     # Save results to individual JSON files
-    output_dir = '/Users/bohan/Desktop/COMP370/COMP370FinalProj/data/movie_search_results'
+    output_dir = '/Users/eloisefreydier/Desktop/comp370 final project/COMP370FinalProj/data/movie_search_results'
     
     print(f"\n{'='*60}")
     print("Saving results to individual files...")
