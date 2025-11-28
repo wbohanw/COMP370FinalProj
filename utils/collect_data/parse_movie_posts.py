@@ -89,7 +89,6 @@ class MoviePostsParser:
         print(f"Processing Movie: {movie_name}")
         print(f"{'='*70}")
         
-        # Select first N posts
         selected_urls = post_urls
         print(f"Parsing {len(selected_urls)} posts...")
         
@@ -162,7 +161,7 @@ class MoviePostsParser:
         """
         import os
         
-        output_dir = '/Users/eloisefreydier/Desktop/comp370 final project/COMP370FinalProj/data/parsed_movie_posts'
+        output_dir = r'C:\Users\Default\Desktop\COMP370FinalProj\data\parsed_movie_posts'
         
         if incremental:
             prefix = "💾 Saving incremental progress"
@@ -191,7 +190,7 @@ class MoviePostsParser:
 def main():
     # Load search results from the movie_search_results directory
     search_results = {}
-    search_results_dir = '/Users/eloisefreydier/Desktop/comp370 final project/COMP370FinalProj/data/movie_search_results'
+    search_results_dir = r'C:\Users\Default\Desktop\COMP370FinalProj\data\movie_search_results'
     
     print("Loading search results...")
     for json_file in Path(search_results_dir).glob('*.json'):
@@ -202,7 +201,7 @@ def main():
     print(f"✓ Loaded search results for {len(search_results)} movies")
     
     # Check which movies are already done
-    output_dir = '/Users/eloisefreydier/Desktop/comp370 final project/COMP370FinalProj/data/parsed_movie_posts'
+    output_dir = r'C:\Users\Default\Desktop\COMP370FinalProj\data\parsed_movie_posts'
     import os
     os.makedirs(output_dir, exist_ok=True)
     

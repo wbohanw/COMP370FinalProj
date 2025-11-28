@@ -43,10 +43,10 @@ class RedditSearchScraper:
         
         links = []
         after = None
-        # the first movie was released on June 6 so did -2 weeks
+        # the first movie was released on June 6: Ballerina so did -2 week
         movie_date_range_start = int(datetime(2025, 5, 23).timestamp())
-        # last movie was released on July 25 so did +2 weeks
-        movie_date_range_end = int(datetime(2025, 8, 1).timestamp())
+        # last movie was released on July 2: Jurassic world so did +2 week
+        movie_date_range_end = int(datetime(2025, 7, 16).timestamp())
         pages_checked = 0
         
         while len(links) < max_links and pages_checked < 20:  # Limit pages to avoid bad results
@@ -133,8 +133,7 @@ class RedditSearchScraper:
 
 def main():
     # Load movie names from JSON file
-    # movies_file = '/Users/bohan/Desktop/COMP370/COMP370FinalProj/data/all_selected_movies.json'
-    movies_file = '/Users/eloisefreydier/Desktop/comp370 final project/COMP370FinalProj/data/all_selected_movies.json'
+    movies_file = r'C:\Users\Default\Desktop\COMP370FinalProj\data\all_selected_movies.json'
     print("Loading movie names...")
     with open(movies_file, 'r') as f:
         movies = json.load(f)
@@ -146,7 +145,7 @@ def main():
     results = scraper.scrape_all_movies(movies, max_links_per_movie=200)
     
     # Save results to individual JSON files
-    output_dir = '/Users/eloisefreydier/Desktop/comp370 final project/COMP370FinalProj/data/movie_search_results'
+    output_dir = r'C:\Users\Default\Desktop\COMP370FinalProj\data\movie_search_results'
     
     print(f"\n{'='*60}")
     print("Saving results to individual files...")

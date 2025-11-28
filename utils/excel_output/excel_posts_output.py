@@ -3,12 +3,32 @@ import os
 from pathlib import Path
 from datetime import datetime
 import pandas as pd
+import re
 
 class UTCDateConverter:
     def __init__(self, parsed_posts_dir: str, output_excel: str):
         self.parsed_posts_dir = parsed_posts_dir
         self.output_excel = output_excel
         self.all_posts = []
+    
+    def clean_text(self, text):
+        """Clean and normalize Reddit post text for Excel."""
+        if not text or not isinstance(text, str):
+            return ""
+        
+        # Remove excessive whitespace and newlines
+        text = re.sub(r'\n\n+', '\n', text)  # Multiple newlines to single
+        text = re.sub(r'\t+', ' ', text)      # Tabs to spaces
+        text = text.strip()
+        
+        # Remove special Unicode characters that cause Excel issues
+        text = text.encode('utf-8', 'ignore').decode('utf-8')
+        
+        # Limit text length to prevent Excel cell overflow
+        if len(text) > 32767:  # Excel cell limit
+            text = text[:32700] + "..."
+        
+        return text
     
     def convert_utc_to_datetime(self, utc_timestamp):
         """Convert UTC timestamp to readable datetime string."""
@@ -29,6 +49,12 @@ class UTCDateConverter:
             posts = movie_data.get('posts', [])
             
             for post in posts:
+                # Clean text fields
+                if 'selftext' in post:
+                    post['selftext'] = self.clean_text(post['selftext'])
+                if 'title' in post:
+                    post['title'] = self.clean_text(post['title'])
+                
                 # Convert UTC timestamps to readable dates
                 if 'created_utc' in post and post['created_utc']:
                     post['created_date'] = self.convert_utc_to_datetime(post['created_utc'])
@@ -37,6 +63,8 @@ class UTCDateConverter:
                 if 'top_comment' in post and post['top_comment']:
                     if 'created_utc' in post['top_comment'] and post['top_comment']['created_utc']:
                         post['top_comment']['created_date'] = self.convert_utc_to_datetime(post['top_comment']['created_utc'])
+                    if 'body' in post['top_comment']:
+                        post['top_comment']['body'] = self.clean_text(post['top_comment']['body'])
                 
                 # Add movie name to post
                 post['movie_name'] = movie_name
@@ -51,6 +79,8 @@ class UTCDateConverter:
     def process_all_files(self):
         """Process all JSON files in the directory."""
         json_files = list(Path(self.parsed_posts_dir).glob('*.json'))
+        # Skip progress files
+        json_files = [f for f in json_files if '_progress.json' not in f.name]
         print(f"Found {len(json_files)} JSON files")
         
         for json_file in json_files:
@@ -71,25 +101,22 @@ class UTCDateConverter:
         cols = ['movie_name', 'title', 'score', 'upvote_ratio', 'num_comments', 
                 'created_date', 'author', 'selftext']
         
-        # Add top comment columns if they exist
-        if 'top_comment' in df.columns:
-            cols.extend(['top_comment'])
-        
         # Keep only columns that exist
         cols = [col for col in cols if col in df.columns]
         df = df[cols]
         
-        # Save to CSV instead
+        # Save to CSV
         os.makedirs(os.path.dirname(self.output_excel), exist_ok=True)
         output_csv = self.output_excel.replace('.xlsx', '.csv')
-        df.to_csv(output_csv, index=False)
+        df.to_csv(output_csv, index=False, encoding='utf-8')
         
         print(f"\n✓ Exported to CSV: {output_csv}")
         print(f"  Total rows: {len(df)}")
+        print(f"  Columns: {', '.join(cols)}")
 
 def main():
-    parsed_posts_dir = '/Users/eloisefreydier/Desktop/comp370 final project/COMP370FinalProj/data/parsed_movie_posts'
-    output_excel = '/Users/eloisefreydier/Desktop/comp370 final project/COMP370FinalProj/data/all_movie_posts.xlsx'
+    parsed_posts_dir = r'c:\Users\Default\Desktop\COMP370FinalProj\data\parsed_movie_posts'
+    output_excel = r'c:\Users\Default\Desktop\COMP370FinalProj\data\all_movie_posts.xlsx'
     
     print("Starting UTC conversion and Excel export...")
     
