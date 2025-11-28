@@ -49,11 +49,27 @@ class UTCDateConverter:
             posts = movie_data.get('posts', [])
             
             for post in posts:
-                # Clean text fields
+                # Clean/normalize selftext and title
                 if 'selftext' in post:
-                    post['selftext'] = self.clean_text(post['selftext'])
+                    post['selftext'] = self.clean_text(post.get('selftext', ''))
+                else:
+                    post['selftext'] = ""
                 if 'title' in post:
                     post['title'] = self.clean_text(post['title'])
+                
+                # If there's no selftext, try to use the first comment as fallback
+                if not post['selftext']:
+                    first_comment_text = None
+                    # Prefer top_comment if present
+                    if post.get('top_comment') and post['top_comment'].get('content'):
+                        first_comment_text = post['top_comment']['content']
+                    
+                    if first_comment_text:
+                        cleaned = self.clean_text(first_comment_text)
+                        post['selftext'] = f"Top comment (no text on this post): {cleaned}"
+                        post['selftext_source'] = 'first_comment'
+                    else:
+                        post['selftext_source'] = 'none'
                 
                 # Convert UTC timestamps to readable dates
                 if 'created_utc' in post and post['created_utc']:
@@ -63,8 +79,8 @@ class UTCDateConverter:
                 if 'top_comment' in post and post['top_comment']:
                     if 'created_utc' in post['top_comment'] and post['top_comment']['created_utc']:
                         post['top_comment']['created_date'] = self.convert_utc_to_datetime(post['top_comment']['created_utc'])
-                    if 'body' in post['top_comment']:
-                        post['top_comment']['body'] = self.clean_text(post['top_comment']['body'])
+                    if 'content' in post['top_comment']:
+                        post['top_comment']['content'] = self.clean_text(post['top_comment']['content'])
                 
                 # Add movie name to post
                 post['movie_name'] = movie_name
