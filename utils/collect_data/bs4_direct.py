@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 from typing import Dict, List, Optional
-from rapidocr_onnxruntime import RapidOCR
+#from rapidocr_onnxruntime import RapidOCR
 from io import BytesIO
 from PIL import Image
 import json
@@ -15,7 +15,7 @@ class RedditScraperDirect:
         self.session.headers.update({
             'User-Agent': user_agent or 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
         })
-        self.ocr = RapidOCR() #for image comments
+        #self.ocr = RapidOCR() #for image comments
     
     def scrape_post(self, post_url: str, delay: float = 1.0) -> Dict:
         try:
