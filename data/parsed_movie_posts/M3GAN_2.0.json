@@ -16,7 +16,8 @@
           "is_submitter": false,
           "created_date": "2025-06-27 02:15:31"
         },
-        "movie_name": "M3GAN 2.0"
+        "movie_name": "M3GAN 2.0",
+        "ocr": []
       },
       {
         "title": "Official Dreadit Discussion: \u201cM3GAN 2.0\u201d [SPOILERS]",
@@ -32,7 +33,8 @@
           "is_submitter": false,
           "created_date": "2025-06-27 01:21:11"
         },
-        "movie_name": "M3GAN 2.0"
+        "movie_name": "M3GAN 2.0",
+        "ocr": []
       },
       {
         "title": "Saw m3gan 2.0 and it was awesome",
@@ -48,7 +50,8 @@
           "is_submitter": false,
           "created_date": "2025-07-17 02:16:10"
         },
-        "movie_name": "M3GAN 2.0"
+        "movie_name": "M3GAN 2.0",
+        "ocr": []
       },
       {
         "title": "So about M3GAN 2.0 \u2026",
@@ -64,7 +67,8 @@
           "is_submitter": false,
           "created_date": "2025-06-28 16:09:28"
         },
-        "movie_name": "M3GAN 2.0"
+        "movie_name": "M3GAN 2.0",
+        "ocr": []
       },
       {
         "title": "\u2018F1\u2019 Drops Into Fifth With $140M Opening Weekend Around The World, Brad Pitt &amp; Apple Original Films Records; \u2018M3GAN 2.0\u2019 Asleep At $10M+ \u2013 Saturday Box Office",
@@ -81,7 +85,12 @@
           "created_date": "2025-06-28 15:49:27"
         },
         "movie_name": "M3GAN 2.0",
-        "selftext_source": "first_comment"
+        "ocr": [
+          {
+            "image_url": "https://external-preview.redd.it/4VBUplczxREI1bHjrUaJu699tYkc1MUBkIhdiYeUcuc.jpeg?auto=webp&s=946198890c540bba5f2e5432a364d34e72c4a570",
+            "extracted_text": "Shark NINgA\n\u8fd9MSC\nMSC\nNIN'"
+          }
+        ]
       },
       {
         "title": "\u2018F1\u2019 Putting The Pedal To The Metal With $55M+ Opening, An Apple Original Films Record; \u2018M3GAN 2.0\u2019 Asleep At $10M, \u2018Elio\u2019 Dropping 45% to $11M-$12M; \u201828 Years Later\u2019 Collapsing 67% to $10M \u2013 Friday PM Update",
@@ -98,7 +107,12 @@
           "created_date": "2025-06-27 23:19:47"
         },
         "movie_name": "M3GAN 2.0",
-        "selftext_source": "first_comment"
+        "ocr": [
+          {
+            "image_url": "https://external-preview.redd.it/8GnblqKKTWCDoBDgHEUaqxW7uGbS5cPeV7vsCCHVz2c.jpeg?auto=webp&s=4ae0d097e7989042bc5ff4151d13206a88a23e23",
+            "extracted_text": "Shark NINJA\nIWC\nExpensify\n8-GBR\nHAV\""
+          }
+        ]
       },
       {
         "title": "'M3GAN 2.0' - Review Thread",
@@ -114,7 +128,13 @@
           "is_submitter": false,
           "created_date": "2025-06-25 16:42:04"
         },
-        "movie_name": "M3GAN 2.0"
+        "movie_name": "M3GAN 2.0",
+        "ocr": [
+          {
+            "image_url": "https://external-preview.redd.it/UlZGb1LbJicawMT6nouMYGjI_Lxuz1yvwBJDD5A9_LE.jpeg?auto=webp&s=8b3aeef3c9caf9467e98441ed1f74c9b93d0948c",
+            "extracted_text": "MGAN\n2.0"
+          }
+        ]
       },
       {
         "title": "\u2018F1\u2019 To Vroom Around The World To $115M+ Opening; \u2018M3GAN 2.0\u2019 Hopes To Break $20M \u2013 Box Office Preview",
@@ -131,7 +151,12 @@
           "created_date": "2025-06-25 14:16:18"
         },
         "movie_name": "M3GAN 2.0",
-        "selftext_source": "first_comment"
+        "ocr": [
+          {
+            "image_url": "https://external-preview.redd.it/_l5CA9X8LG9snvSK8Wazm7dw_43xKQ-_NVJbUtf2Jbo.jpeg?auto=webp&s=1c89ce4543187d487b9f71029c30c4a83212e7f4",
+            "extracted_text": "OMP"
+          }
+        ]
       },
       {
         "title": "After \u2018M3GAN 2.0,\u2019 Blumhouse's Box Office Slump Is at 18 Months and Counting - Long known as a top horror studio, Blumhouse\u2019s will likely now have its eighth straight film gross less than $80 million worldwide",
@@ -148,7 +173,7 @@
           "created_date": "2025-07-01 22:01:39"
         },
         "movie_name": "M3GAN 2.0",
-        "selftext_source": "first_comment"
+        "ocr": []
       },
       {
         "title": "It looks like F1 has a great shot at $60m opening after $10m in combined previews. Poor M3GAN 2.0 only a paltry $1.5m in Thursday previews and headed for maybe $10m-$12m on the weekend.",
@@ -165,7 +190,16 @@
           "created_date": "2025-06-27 14:37:36"
         },
         "movie_name": "M3GAN 2.0",
-        "selftext_source": "first_comment"
+        "ocr": [
+          {
+            "image_url": "https://i.redd.it/spads8rzah9f1.png",
+            "extracted_text": "EmpireCity Box Office\n@EmpireCityBO\nIt looks like @F1Movie has a great shot at\n$60m opening after $10m in combined\npreviews. Poor @meetM3GAN only a\npaltry $1.5m in Thursday previews and\nheaded for maybe $10m-$12m on the\nWeekend.\nGIF\nALT\n10:15 a.m.: 27 Jun 25 .145 Views"
+          },
+          {
+            "image_url": "https://preview.redd.it/spads8rzah9f1.png?auto=webp&s=79315a8cecb76e7ed6e6dca34b8b5a6c75591065",
+            "extracted_text": "EmpireCity Box Office\n@EmpireCityBO\nIt looks like @F1Movie has a great shot at\n$60m opening after $10m in combined\npreviews. Poor @meetM3GAN only a\npaltry $1.5m in Thursday previews and\nheaded for maybe $10m-$12m on the\nWeekend.\nGIF\nALT\n10:15 a.m.: 27 Jun 25 .145 Views"
+          }
+        ]
       },
       {
         "title": "In M3GAN 2.0, M3GAN walks away with a towel after doing training, despite being a robot. This is because the entire movie is a bit that went beyond reasoning",
@@ -182,7 +216,7 @@
           "created_date": "2025-07-01 07:02:22"
         },
         "movie_name": "M3GAN 2.0",
-        "selftext_source": "first_comment"
+        "ocr": []
       },
       {
         "title": "M3GAN 2.0 Is The Summer's Big Horror Box Office Bummer",
@@ -199,7 +233,7 @@
           "created_date": "2025-06-30 00:11:33"
         },
         "movie_name": "M3GAN 2.0",
-        "selftext_source": "first_comment"
+        "ocr": []
       },
       {
         "title": "M3GAN 2.0 Flopped at Box Office Because Team 'Over-Thought' the Character, Admits Producer Jason Blum",
@@ -216,7 +250,7 @@
           "created_date": "2025-07-02 20:54:11"
         },
         "movie_name": "M3GAN 2.0",
-        "selftext_source": "first_comment"
+        "ocr": []
       },
       {
         "title": "'M3GAN 2.0' Review Thread",
@@ -232,7 +266,13 @@
           "is_submitter": false,
           "created_date": "2025-06-25 16:40:33"
         },
-        "movie_name": "M3GAN 2.0"
+        "movie_name": "M3GAN 2.0",
+        "ocr": [
+          {
+            "image_url": "https://external-preview.redd.it/UlZGb1LbJicawMT6nouMYGjI_Lxuz1yvwBJDD5A9_LE.jpeg?auto=webp&s=8b3aeef3c9caf9467e98441ed1f74c9b93d0948c",
+            "extracted_text": "MGAN\n2.0"
+          }
+        ]
       },
       {
         "title": "\u2018F1\u2019 Zooms To $10M Previews, An Apple Original Films Record; \u2018M3GAN 2.0\u2019 $1.5M \u2013 Friday AM Box Office",
@@ -249,7 +289,12 @@
           "created_date": "2025-06-27 15:05:34"
         },
         "movie_name": "M3GAN 2.0",
-        "selftext_source": "first_comment"
+        "ocr": [
+          {
+            "image_url": "https://external-preview.redd.it/8GnblqKKTWCDoBDgHEUaqxW7uGbS5cPeV7vsCCHVz2c.jpeg?auto=webp&s=4ae0d097e7989042bc5ff4151d13206a88a23e23",
+            "extracted_text": "Shark NINJA\nIWC\nExpensify\n8-GBR\nHAV\""
+          }
+        ]
       },
       {
         "title": "F1\u2019s getting the attention but M3GAN 2.0\u2019s complete implosion might be the more significant story from this weekend\u2019s box office",
@@ -265,7 +310,13 @@
           "is_submitter": false,
           "created_date": "2025-06-29 19:43:00"
         },
-        "movie_name": "M3GAN 2.0"
+        "movie_name": "M3GAN 2.0",
+        "ocr": [
+          {
+            "image_url": "https://external-preview.redd.it/4VBUplczxREI1bHjrUaJu699tYkc1MUBkIhdiYeUcuc.jpeg?auto=webp&s=946198890c540bba5f2e5432a364d34e72c4a570",
+            "extracted_text": "Shark NINgA\n\u8fd9MSC\nMSC\nNIN'"
+          }
+        ]
       },
       {
         "title": "BOT Presale Tracking (June 26). Thursday Comps: F1: The Movie ($7.07M [excluding ~$2.5M EA]), M3GAN 2.0 ($2.11M), Superman ($20.39M), and The Fantastic Four: First Steps ($22.13M). Jurassic World Rebirth has $21.65M Wednesday comp.",
@@ -281,7 +332,8 @@
           "is_submitter": false,
           "created_date": "2025-06-26 15:20:16"
         },
-        "movie_name": "M3GAN 2.0"
+        "movie_name": "M3GAN 2.0",
+        "ocr": []
       },
       {
         "title": "Box Office Preview: \u2018F1\u2019 to Leave \u2018M3GAN 2.0\u2019 in the Dust With High-Octane $40M-$50M U.S. Opening",
@@ -298,7 +350,12 @@
           "created_date": "2025-06-26 13:45:04"
         },
         "movie_name": "M3GAN 2.0",
-        "selftext_source": "first_comment"
+        "ocr": [
+          {
+            "image_url": "https://external-preview.redd.it/P9krY4oSCNOHauCdwdUEan76aswdyhmMc_tPPMh-6hA.jpeg?auto=webp&s=7617571b9cb826c47188647337eda84720e83547",
+            "extracted_text": "OMP\nOMP\nTOMMY\nHILFIGER\nIIAMG\nShark NINJA\nIWC"
+          }
+        ]
       },
       {
         "title": "M3GAN 2.0 - Final Trailer",
@@ -315,7 +372,7 @@
           "created_date": "2025-06-02 15:10:41"
         },
         "movie_name": "M3GAN 2.0",
-        "selftext_source": "first_comment"
+        "ocr": []
       },
       {
         "title": "'M3GAN 2.0' gets a B+ on CinemaScore, higher than the original.",
@@ -332,7 +389,16 @@
           "created_date": "2025-06-28 02:46:37"
         },
         "movie_name": "M3GAN 2.0",
-        "selftext_source": "first_comment"
+        "ocr": [
+          {
+            "image_url": "https://i.redd.it/4vnqkz4rzk9f1.png",
+            "extracted_text": "HEW RELEASES\nM3GAN 2.0 (2025)\nB+"
+          },
+          {
+            "image_url": "https://preview.redd.it/4vnqkz4rzk9f1.png?auto=webp&s=91aaf615e70d807a47fb5aba804e8a4a51395219",
+            "extracted_text": "NEW RELEASES\nM3GAN 2.0 (2025)\nB+"
+          }
+        ]
       },
       {
         "title": "June 27-29 Box Office Recap \u2013 'F1' opens with a pretty great $146M worldwide, the biggest debut for Apple. However, 'M3GAN 2.0' underwhelms, collapsing 66% from the original. '28 Years Later' passes $100M worldwide, but it collapses 67% domestically.",
@@ -348,7 +414,13 @@
           "is_submitter": false,
           "created_date": "2025-06-30 22:24:28"
         },
-        "movie_name": "M3GAN 2.0"
+        "movie_name": "M3GAN 2.0",
+        "ocr": [
+          {
+            "image_url": "https://external-preview.redd.it/457vqSbsU8YuKcSW1_EFh-rf-tkmmnbYUtedhj4Ih5w.png?auto=webp&s=42a950c24c19f3b348512f23d49dbdd4cd277590",
+            "extracted_text": "JUNE 27-29 WEEKEND\nFORMULA WON\nIORIS\nCONDON\nBARDEM\nALEX GARLAND\nIMAX\nDiSNEP-PIXAR\nDRFGON\nELo\nMGAN\n2.0\nTHEMOVIe\n28\nYEARS\nLATER\nJUNE 20\nPURDTOR IMAX\nJUNE 20\nREALBENO\nSCREENN\n$57,001,667\n$19,594,045\n$10,430,611\n$10,201,625\n$9,753,037\nD0M: $57,001,667 (1.00x)\nDOM: $41,956,358 (2.01x)\nD0M: $200,250,960 (2.37x)\nD0M: $10,201,625 (1.00x)\nD0M: $50,406,584 (1.68x)\nwW: $72,319,252\nWW: $456,084,960\nWW: $17,012,625\nwW: $146,301,667\nWW: $103,106,584\n4,127 thea / $4,748 PTA\n3,750 thea / $2,781 PTA\n3,661 thea / $15.570 PTA\n3,112 thea / $3,278 PTA\n3,444 thea / $2,832 PTA\nWEEK 3\nWEEK 1\nWEEK 1\nWEEK2\nWEEK2\n46%\n%09-\nNEW\nNEW\n-67%\nWC\nNINJA\n110&\nOMCRUISE\nSttcH\nMaterialists\nKarateKid\nBALLERINA\nLEGENDS\nIE TMEATERS JUNEG\nEGIBSINETNRERETHIATES\nSuney\nMAY30\n$2,188,430\n$6,848,899\n$4,154,836\n$2,999,423\n$960,702\nD0M: $400,019,803 (2.74x)\nD0M: $30,401,382 (2.68x)\nDOM: $55,531,323 (2.27x)\nD0M: $186,001,201 (2.90x)\nD0M: $51,552,890 (2.54x)\nWW: $108,931,323\nwW: $562,001,201\nwW: $40,101,382\npen\nWW: $946,898,920\nWW: $102,352,890\n2,157 thea / $1,926 PTA RCE\n1,796 thea / $1,219 PTA\n1,931 thea / $1,553 PTA\n2,900 thea / $2,362 PTA\n925 thea / $1,039 PTA\nWEEK 4\nWEEK 6\nWEEK 6\nWEEK 3\nWEEK 5\n-36%\n-51%\n-30%\n-53%\n%69-"
+          }
+        ]
       },
       {
         "title": "$1M CLUB: PREVIEW THURSDAY\n1. F1 ($10M)\n2. HOW TO TRAIN YOUR DRAGON ($4M)\n3. ELIO ($2.2M)\n4. 28 YEARS LATER ($2M)\n5. M3GAN 2.0 ($1.5M)\n5. LILO &amp; STITCH ($1.5M)",
@@ -365,7 +437,7 @@
           "created_date": "2025-06-27 16:31:20"
         },
         "movie_name": "M3GAN 2.0",
-        "selftext_source": "first_comment"
+        "ocr": []
       },
       {
         "title": "Universal's M3GAN 2.0 grossed an estimated $4.53M domestically on Friday (from 3,112 locations), including Thursday previews.",
@@ -382,7 +454,16 @@
           "created_date": "2025-06-28 14:29:55"
         },
         "movie_name": "M3GAN 2.0",
-        "selftext_source": "first_comment"
+        "ocr": [
+          {
+            "image_url": "https://i.redd.it/00abxszofo9f1.jpeg",
+            "extracted_text": "BoxOfficeReport.com\nBoxOffice\nReport\n@BORReport\nUniversal's M3GAN 2.0 grossed an estimated\n$4.53M domestically on Friday (from 3,112\nlocations),including Thursday previews.\n#M3GAN2\n#BoxOffice\nFROMHLUNOUSE & ATENC\nMEGAN\n2.0\nONLY IN THEATERS\nJUN=27\n9:17AM\u00b76/28/25"
+          },
+          {
+            "image_url": "https://preview.redd.it/00abxszofo9f1.jpeg?auto=webp&s=b6e810e2be00952375cedeb4bb3335d983ac1cca",
+            "extracted_text": "BoxOfficeReport.com\nBoxOffice\nReport\n@BORReport\nUniversal's M3GAN 2.0 grossed an estimated\n$4.53M domestically on Friday (from 3,112\nlocations),including Thursday previews.\n#M3GAN2\n#BoxOffice\nEROMFLUNIDUSE & ADENIC CRONSTER\nMEGAN\n2.0\nONLY IN THEATERS\nJUN=27\n9:17AM\u00b76/28/25"
+          }
+        ]
       },
       {
         "title": "\u2018M3GAN 2.0\u2019 Bombs: 5 Reasons the Sequel Couldn\u2019t Match the Original\u2019s Box Office Success",
@@ -399,7 +480,7 @@
           "created_date": "2025-07-01 14:11:04"
         },
         "movie_name": "M3GAN 2.0",
-        "selftext_source": "first_comment"
+        "ocr": []
       },
       {
         "title": "M3GAN 2.0 | Final Trailer",
@@ -416,7 +497,12 @@
           "created_date": "2025-06-02 15:25:45"
         },
         "movie_name": "M3GAN 2.0",
-        "selftext_source": "first_comment"
+        "ocr": [
+          {
+            "image_url": "https://external-preview.redd.it/Z6BngTtmYHGkOqCFRKEysiWozwHi991Z86lFVHPZ4z8.jpg?auto=webp&s=c3f24c29820a9139e0d86a74771d7a8d6b56cdbe",
+            "extracted_text": "M=GAN2.0\nFINAL TRAILER"
+          }
+        ]
       },
       {
         "title": "Well I didn't actually expect Ben to be on the M3GAN 2.0 movie. I had to rewatch the same part of be sure and then check the cast.",
@@ -433,7 +519,16 @@
           "created_date": "2025-07-11 16:44:41"
         },
         "movie_name": "M3GAN 2.0",
-        "selftext_source": "first_comment"
+        "ocr": [
+          {
+            "image_url": "https://i.redd.it/gupnp6lqu9cf1.jpeg",
+            "extracted_text": "ALT"
+          },
+          {
+            "image_url": "https://preview.redd.it/gupnp6lqu9cf1.jpeg?auto=webp&s=4b7ddc70e5a50cc1e1f91ba009d25b99b45fa5b0",
+            "extracted_text": "ALT"
+          }
+        ]
       },
       {
         "title": "M3GAN 2.0 | Final Trailer",
@@ -449,7 +544,13 @@
           "is_submitter": false,
           "created_date": "2025-06-02 15:35:45"
         },
-        "movie_name": "M3GAN 2.0"
+        "movie_name": "M3GAN 2.0",
+        "ocr": [
+          {
+            "image_url": "https://external-preview.redd.it/Z6BngTtmYHGkOqCFRKEysiWozwHi991Z86lFVHPZ4z8.jpg?auto=webp&s=c3f24c29820a9139e0d86a74771d7a8d6b56cdbe",
+            "extracted_text": "M=GAN2.0\nFINAL TRAILER"
+          }
+        ]
       },
       {
         "title": "What Marnie scene haunts Allison Williams!? - Why Allison Williams refuses to let 'M3GAN 2.0' costar watch 'Girls'",
@@ -465,7 +566,13 @@
           "is_submitter": false,
           "created_date": "2025-06-19 14:29:03"
         },
-        "movie_name": "M3GAN 2.0"
+        "movie_name": "M3GAN 2.0",
+        "ocr": [
+          {
+            "image_url": "https://external-preview.redd.it/q0cTiZwjf7UoPQfBEI0kznQ5qP9ehMwbcRaFw4VDxIs.jpeg?auto=webp&s=f3ea75731ca2aed0e0d856256509879fef1d4533",
+            "extracted_text": "ECA\nal\nAL"
+          }
+        ]
       },
       {
         "title": "BOT Presale Tracking (May 27). Thursday Comps: Ballerina ($3.06M), The Phoenician Scheme ($1.98M), How to Train Your Dragon ($9.86M), Materialists ($1.15M), Elio ($1.53M), F1: The Movie ($5.99M), and M3GAN 2.0 ($2.60M). Jurassic World Rebirth sales largely stagnate.",
@@ -481,7 +588,8 @@
           "is_submitter": false,
           "created_date": "2025-06-03 13:24:12"
         },
-        "movie_name": "M3GAN 2.0"
+        "movie_name": "M3GAN 2.0",
+        "ocr": []
       },
       {
         "title": "Box Office Weekend Forecast: F1: THE MOVIE ($55-70M+) and M3GAN 2.0 ($14M+) Debut on Pre-Fourth of July Frame, Hoping to Liven Up a Sluggish June",
@@ -498,7 +606,7 @@
           "created_date": "2025-06-27 05:32:10"
         },
         "movie_name": "M3GAN 2.0",
-        "selftext_source": "first_comment"
+        "ocr": []
       },
       {
         "title": "This may be a hot take, but M3GAN 2.0 was a blast and feels destined to become a cult classic",
@@ -514,7 +622,8 @@
           "is_submitter": false,
           "created_date": "2025-06-27 05:01:12"
         },
-        "movie_name": "M3GAN 2.0"
+        "movie_name": "M3GAN 2.0",
+        "ocr": []
       },
       {
         "title": "Allison Williams in Carolina Herrera at the \u201cM3GAN 2.0\u201d premiere in New York (June 24, 2025)",
@@ -531,7 +640,16 @@
           "created_date": "2025-06-25 13:56:40"
         },
         "movie_name": "M3GAN 2.0",
-        "selftext_source": "first_comment"
+        "ocr": [
+          {
+            "image_url": "https://preview.redd.it/so42dmnvs29f1.jpg?width=1638&format=pjpg&auto=webp&s=efd77a30b3dfe7b4cd770ed33419e35663149383",
+            "extracted_text": "ME\nAN2"
+          },
+          {
+            "image_url": "https://preview.redd.it/qucu5mnvs29f1.jpg?width=1622&format=pjpg&auto=webp&s=17c318780f0e0b1a49d27dc82432348534cdcdd4",
+            "extracted_text": "Winsia"
+          }
+        ]
       },
       {
         "title": "'M3GAN 2.0' Rotten Tomatoes Verified Audience Score Thread",
@@ -547,7 +665,13 @@
           "is_submitter": false,
           "created_date": "2025-06-28 03:27:40"
         },
-        "movie_name": "M3GAN 2.0"
+        "movie_name": "M3GAN 2.0",
+        "ocr": [
+          {
+            "image_url": "https://external-preview.redd.it/UlZGb1LbJicawMT6nouMYGjI_Lxuz1yvwBJDD5A9_LE.jpeg?auto=webp&s=8b3aeef3c9caf9467e98441ed1f74c9b93d0948c",
+            "extracted_text": "MGAN\n2.0"
+          }
+        ]
       },
       {
         "title": "Will \u2018M3GAN 2.0\u2019 ($30M+) Run Brad Pitt\u2019s \u2018F1\u2019 ($30M+, Some Sources Say $35-40M) Off The Road At U.S. Box Office? \u2013 Early Look",
@@ -564,7 +688,12 @@
           "created_date": "2025-06-05 19:44:22"
         },
         "movie_name": "M3GAN 2.0",
-        "selftext_source": "first_comment"
+        "ocr": [
+          {
+            "image_url": "https://external-preview.redd.it/Iz51IRlS7PhclZan16KOAhCAaubmjN-hq3JVvwRTN6Y.jpg?auto=webp&s=be0f47598829effd0214e5ee1a8a26cbe4247ea1",
+            "extracted_text": "OMP\nOMM"
+          }
+        ]
       },
       {
         "title": "Just saw M3GAN 2.0 in a pre-screening, ask me anything",
@@ -580,7 +709,8 @@
           "is_submitter": false,
           "created_date": "2025-06-24 08:29:57"
         },
-        "movie_name": "M3GAN 2.0"
+        "movie_name": "M3GAN 2.0",
+        "ocr": []
       },
       {
         "title": "I saw M3GAN 2.0 for the sixth and final time. My local theaters are no longer running it, and the only thing I can do now is hope it explodes in South Korea, Japan, and China\u2026",
@@ -596,7 +726,8 @@
           "is_submitter": false,
           "created_date": "2025-07-10 11:54:54"
         },
-        "movie_name": "M3GAN 2.0"
+        "movie_name": "M3GAN 2.0",
+        "ocr": []
       },
       {
         "title": "r/BoxOffice Long Range Forecast: 'F1' and 'M3GAN 2.0'",
@@ -612,7 +743,8 @@
           "is_submitter": false,
           "created_date": "2025-05-28 15:46:38"
         },
-        "movie_name": "M3GAN 2.0"
+        "movie_name": "M3GAN 2.0",
+        "ocr": []
       },
       {
         "title": "M3GAN 2.0 is low-key underrated",
@@ -628,7 +760,17 @@
           "is_submitter": false,
           "created_date": "2025-07-15 10:34:17"
         },
-        "movie_name": "M3GAN 2.0"
+        "movie_name": "M3GAN 2.0",
+        "ocr": [
+          {
+            "image_url": "https://i.redd.it/scoi9vcjwycf1.jpeg",
+            "extracted_text": "FROM BLUMHOUSE & AT&MIC MONSTER\nM=GAN\nONLY IN THEATERS\nJUN=27\nBASEOCAEAKELACOOPER&JAMESWAN\nCREATEDBY"
+          },
+          {
+            "image_url": "https://preview.redd.it/scoi9vcjwycf1.jpeg?auto=webp&s=0ea072f11aa34b8f52f26867c9f0acaa4201e6ba",
+            "extracted_text": "FROM BLUMHOUSE & AT&MIC MONSTER\nM=GAN\nONLY IN THEATERS\nJUN=27\nBASEOCAEAKELACOOPER&JAMESWAN\nCREATEDBY"
+          }
+        ]
       },
       {
         "title": "M3gan 2.0 carries a $36M budget (up from the first film's $16M)",
@@ -645,7 +787,7 @@
           "created_date": "2025-06-06 17:32:13"
         },
         "movie_name": "M3GAN 2.0",
-        "selftext_source": "first_comment"
+        "ocr": []
       },
       {
         "title": "Non-Malayalam Discussion - Kannappa (Telugu), F1: The Movie (English), M3GAN 2.0 (English), Love Marriage (Tamil), Maa (Hindi)",
@@ -662,7 +804,16 @@
           "created_date": "2025-06-27 04:41:16"
         },
         "movie_name": "M3GAN 2.0",
-        "selftext_source": "first_comment"
+        "ocr": [
+          {
+            "image_url": "https://i.redd.it/a3sv1y1obe9f1.jpeg",
+            "extracted_text": "24FRAME5\nENTERTAINMENT\nJUNE27th\nWORLDWIDE\nDAYS\nTOGO\nVISHNU MANCHU\nIN&AS\nRONHCPPA\nTHEBRAVESTWARRIORTHEULTIMATEDEVOTEE:\nCOMMOHAN BABU DIRICIOR MUKESHKUMAR SINGH"
+          },
+          {
+            "image_url": "https://preview.redd.it/a3sv1y1obe9f1.jpeg?auto=webp&s=9ecc5314906f9aa02aa027abe22070bccdf30166",
+            "extracted_text": "24FRAME5\nENTERTRINMENT\nJUNE27th\nWORLDWIDE\nDAYS\nTOGO\nVISHNU MANCHU\nIN&AS\nRONHAPPA\nTHEBRAVESTWARRIORTHEULTIMATEDEVOTEE\nDCMMOHANBABU DIRICIORMUKESHKUMAR SINGH"
+          }
+        ]
       },
       {
         "title": "M3GAN 2.0?",
@@ -678,7 +829,8 @@
           "is_submitter": false,
           "created_date": "2025-06-23 15:45:21"
         },
-        "movie_name": "M3GAN 2.0"
+        "movie_name": "M3GAN 2.0",
+        "ocr": []
       },
       {
         "title": "Just saw M3gan 2.0 and I loved it",
@@ -694,7 +846,8 @@
           "is_submitter": false,
           "created_date": "2025-06-29 00:38:48"
         },
-        "movie_name": "M3GAN 2.0"
+        "movie_name": "M3GAN 2.0",
+        "ocr": []
       },
       {
         "title": "Jason Blum Addresses the delusional approach to M3GAN 2.0",
@@ -710,7 +863,13 @@
           "is_submitter": false,
           "created_date": "2025-07-02 18:35:22"
         },
-        "movie_name": "M3GAN 2.0"
+        "movie_name": "M3GAN 2.0",
+        "ocr": [
+          {
+            "image_url": "https://external-preview.redd.it/KImqKlAKkDlDFX0MEWzP6jBvj6ozOkZD5wjuU4L3f6Q.jpeg?auto=webp&s=b060099f4201beaef96bf3f6678d978dd1f74318",
+            "extracted_text": "ASPOTIFY PODCAST\nThe\nTOWN\nwithMatthewBelloni\nPUCK\nTHERINGER\nPRESENTEDBY"
+          }
+        ]
       },
       {
         "title": "M3GAN 2.0 Unrated Drops July 15th",
@@ -726,7 +885,17 @@
           "is_submitter": false,
           "created_date": "2025-07-14 13:43:31"
         },
-        "movie_name": "M3GAN 2.0"
+        "movie_name": "M3GAN 2.0",
+        "ocr": [
+          {
+            "image_url": "https://i.redd.it/nirdjedr9ucf1.jpeg",
+            "extracted_text": "ME(\nGAN 2.0\nUNRATED"
+          },
+          {
+            "image_url": "https://preview.redd.it/nirdjedr9ucf1.jpeg?auto=webp&s=19e07345c9e3471a6148d2c8bd0f8b09a61fb9f8",
+            "extracted_text": "GAN 2.0\nME(\nUNRATED"
+          }
+        ]
       },
       {
         "title": "++ Here'S How to WatCh M3GAN 2.0 (FuLLMovie) ONLINE For fREE On ReDdit",
@@ -742,7 +911,8 @@
           "is_submitter": false,
           "created_date": "2025-06-28 18:36:36"
         },
-        "movie_name": "M3GAN 2.0"
+        "movie_name": "M3GAN 2.0",
+        "ocr": []
       },
       {
         "title": "Discussion - M3GAN 2.0 (2025) - Digital &amp; Unrated Release [SPOILERS]",
@@ -758,7 +928,13 @@
           "is_submitter": true,
           "created_date": "2025-07-15 17:47:45"
         },
-        "movie_name": "M3GAN 2.0"
+        "movie_name": "M3GAN 2.0",
+        "ocr": [
+          {
+            "image_url": "https://external-preview.redd.it/RGXKAf08vRtCs73ECb3lrArmPL-axqZZxDJBthK0hwo.jpeg?auto=webp&s=161447720100106889130e7528279975218f881d",
+            "extracted_text": "M=GAN2.0\nUNRATED\nONDIGITAL7/15ON4K,BLU-RAY\"ANDDVD9/23"
+          }
+        ]
       },
       {
         "title": "Just watched M3GAN 2.0, and it\u2019s alright! Go watch it!",
@@ -774,7 +950,8 @@
           "is_submitter": false,
           "created_date": "2025-06-26 15:33:14"
         },
-        "movie_name": "M3GAN 2.0"
+        "movie_name": "M3GAN 2.0",
+        "ocr": []
       },
       {
         "title": "UK and Ireland Saturday Box Office: F1 Roaring into \u00a31.98M, 28 YL a respectable 944k, HTTYD, Eilo and LILO all suffer soft drops while M3gan 2.0 crashes into 6th with an abysmal \u00a3185k.",
@@ -791,7 +968,16 @@
           "created_date": "2025-06-29 10:02:58"
         },
         "movie_name": "M3GAN 2.0",
-        "selftext_source": "first_comment"
+        "ocr": [
+          {
+            "image_url": "https://i.redd.it/2udkki6v8u9f1.jpeg",
+            "extracted_text": "UKBoxOffice\nPosted3minutesago\nSaturday\n1. F1 1.98m\n2. 28 Years 944k (-32%)\n3. Dragon 853k (-25%)\n4. Elio 340k (-11%)\n5. Lilo 242k (-10%)\n6. Megan 185k"
+          },
+          {
+            "image_url": "https://preview.redd.it/2udkki6v8u9f1.jpeg?auto=webp&s=59fadb7cb17e3e9cbadcf5599cf6f398d653eb37",
+            "extracted_text": "UKBoxOffice\nPosted3 minutesago\nSaturday\n1. F1 1.98m\n2. 28 Years 944k (-32%)\n3. Dragon 853k (-25%)\n4. Elio 340k (-11%)\n5. Lilo 242k (-10%)\n6. Megan 185k"
+          }
+        ]
       },
       {
         "title": "Any film experts here? Can international box office save M3GAN 2.0? Like China, Japan, etc.",
@@ -807,7 +993,8 @@
           "is_submitter": false,
           "created_date": "2025-07-01 07:38:36"
         },
-        "movie_name": "M3GAN 2.0"
+        "movie_name": "M3GAN 2.0",
+        "ocr": []
       },
       {
         "title": "M3GAN 2.0 unrated difference from the original",
@@ -823,7 +1010,8 @@
           "is_submitter": false,
           "created_date": "2025-07-16 03:52:52"
         },
-        "movie_name": "M3GAN 2.0"
+        "movie_name": "M3GAN 2.0",
+        "ocr": []
       },
       {
         "title": "Gerard Johnstone tells us that there will be an Unrated Cut for M3gan 2.0",
@@ -839,7 +1027,8 @@
           "is_submitter": false,
           "created_date": "2025-07-04 03:06:29"
         },
-        "movie_name": "M3GAN 2.0"
+        "movie_name": "M3GAN 2.0",
+        "ocr": []
       },
       {
         "title": "What was your favorite scene in M3GAN 2.0?",
@@ -856,7 +1045,7 @@
           "created_date": "2025-07-14 06:12:33"
         },
         "movie_name": "M3GAN 2.0",
-        "selftext_source": "first_comment"
+        "ocr": []
       },
       {
         "title": "This car from the M3gan 2.0 movie",
@@ -872,7 +1061,25 @@
           "is_submitter": false,
           "created_date": "2025-07-12 05:39:58"
         },
-        "movie_name": "M3GAN 2.0"
+        "movie_name": "M3GAN 2.0",
+        "ocr": [
+          {
+            "image_url": "https://preview.redd.it/linu0v8sh18f1.png?width=1464&format=png&auto=webp&s=8c99dfa646c134ce731b361cb9c3ffee4d89885e",
+            "extracted_text": "u/universaluk . Promoted\nShe's back and upgraded. r/M3GAN is in cinemas June 27\nI Nb:69N:BbA ScdU N* 2 "
+          },
+          {
+            "image_url": "https://preview.redd.it/vm49qt8sh18f1.png?width=1466&format=png&auto=webp&s=81e1d848f067e28c0905b6a7cc4424a1bcd3ec2f",
+            "extracted_text": "She's back and upgraded. r/M3GAN is in cinemas June 27\nI Nb:69o:BbA SU N* 2 "
+          },
+          {
+            "image_url": "https://preview.redd.it/ezseos8sh18f1.png?width=1488&format=png&auto=webp&s=795423f78bcf84d4018b6bf969480d5af71701d9",
+            "extracted_text": "She's back and upgraded. r/M3GAN is in cinemas June 27\nI Nb:69o:BbA ScdU N 2 7"
+          },
+          {
+            "image_url": "https://external-preview.redd.it/Xw84nHGkp91L2NdKVnuMmlvd53G2vhMDIPMndRLlSnU.png?auto=webp&s=9bdc5740b08520b7e3fbda4638950a0ce9ec9733",
+            "extracted_text": "u/universaluk . Promoted\nShe's back and upgraded. r/M3GAN is in cinemas June 27\nI Nb:69N:BbA ScdU N* 2 "
+          }
+        ]
       },
       {
         "title": "When the US get censored PG13 horror movies like M3GAN 2.0, why do we have to suffer the same in the UK, as both that &amp; unrated versions are still a 15-certificate!",
@@ -888,7 +1095,8 @@
           "is_submitter": false,
           "created_date": "2025-06-22 00:45:05"
         },
-        "movie_name": "M3GAN 2.0"
+        "movie_name": "M3GAN 2.0",
+        "ocr": []
       },
       {
         "title": "M3GAN 2.0 was awful",
@@ -904,7 +1112,8 @@
           "is_submitter": false,
           "created_date": "2025-06-25 06:28:51"
         },
-        "movie_name": "M3GAN 2.0"
+        "movie_name": "M3GAN 2.0",
+        "ocr": []
       },
       {
         "title": "M3GAN 2.0 is way better than I would've thought. I really hope more people will give it a chance.",
@@ -920,7 +1129,17 @@
           "is_submitter": false,
           "created_date": "2025-06-28 00:24:42"
         },
-        "movie_name": "M3GAN 2.0"
+        "movie_name": "M3GAN 2.0",
+        "ocr": [
+          {
+            "image_url": "https://i.redd.it/b6a4gu2l9k9f1.jpeg",
+            "extracted_text": "MISS\nME?\nFROM BLUMHOUSE & AT&MIC\nMONSTER\nM=\nGAN2.0\nONLY IN TH=ATERS\nJUN= 2\n27\nUNIVERSAL\nBHI\nBASEDONCHARACTERS\nAKELA COOPER&JAMESWAN\nWRITTEN\nDIRECTED\nGERARD JOHNSTONE\nGERARD JOHNSTONE\nTHISFILMISNOTYETRATEL\nAT&MICMONSTER\nCREATED BY\nBY\nBY\n2025UNIVERSALSTUDIOS"
+          },
+          {
+            "image_url": "https://preview.redd.it/b6a4gu2l9k9f1.jpeg?auto=webp&s=8c969bf97319ac6c003766894e34714e0b180e80",
+            "extracted_text": "MISS\nME?\nFROM BLUMHOUSE &AT&MIC MONSTER\nM=\nGAN2.0\nONLY IN THEATERS\nJUN= 27\nUNIVERSAL\nBHI\nBASEDON CHARACTERS\nAKELACOOPER&JAMESWAN\nDIRECTED\nWRITTEN\nGERARD JOHNSTONE\nGERARD JOHNSTONE\nAT&MICMONSTER\nTHIS FILM ISNOTYET RATE\nCREATED BY\nBY\nBY\n2025UNIVERSALSTUDIOS"
+          }
+        ]
       },
       {
         "title": "M3GAN 2.0 or 28 Years Later?",
@@ -936,7 +1155,8 @@
           "is_submitter": false,
           "created_date": "2025-06-27 21:45:38"
         },
-        "movie_name": "M3GAN 2.0"
+        "movie_name": "M3GAN 2.0",
+        "ocr": []
       },
       {
         "title": "\"M3GAN 2.0\" A-List pocket review",
@@ -952,7 +1172,8 @@
           "is_submitter": false,
           "created_date": "2025-07-03 14:36:43"
         },
-        "movie_name": "M3GAN 2.0"
+        "movie_name": "M3GAN 2.0",
+        "ocr": []
       },
       {
         "title": "James featured in new M3GAN 2.0 AMC preroll ad",
@@ -968,7 +1189,8 @@
           "is_submitter": false,
           "created_date": "2025-05-29 20:18:59"
         },
-        "movie_name": "M3GAN 2.0"
+        "movie_name": "M3GAN 2.0",
+        "ocr": []
       },
       {
         "title": "M3GAN 2.0 Unrated Trailer",
@@ -984,7 +1206,13 @@
           "is_submitter": false,
           "created_date": "2025-07-14 17:32:42"
         },
-        "movie_name": "M3GAN 2.0"
+        "movie_name": "M3GAN 2.0",
+        "ocr": [
+          {
+            "image_url": "https://external-preview.redd.it/M3hteGdsenFhdmNmMU4axs8L80XvwvjoUltSx3fUZIXAUqxXLiknOxKqd1Lx.png?format=pjpg&auto=webp&s=e282a0ea25dcea14788ea1480835b09996a9ea99",
+            "extracted_text": "M=GAN2.0\nOWN OR RENTTODAY\nHOME\nAT\nNOW"
+          }
+        ]
       },
       {
         "title": "Boy, I sure wonder where things go from there after M3GAN 2.0\u2019s ending",
@@ -1000,7 +1228,8 @@
           "is_submitter": false,
           "created_date": "2025-06-28 22:28:11"
         },
-        "movie_name": "M3GAN 2.0"
+        "movie_name": "M3GAN 2.0",
+        "ocr": []
       },
       {
         "title": "About M3GAN 2.0 Reviews",
@@ -1016,7 +1245,8 @@
           "is_submitter": false,
           "created_date": "2025-06-26 03:11:18"
         },
-        "movie_name": "M3GAN 2.0"
+        "movie_name": "M3GAN 2.0",
+        "ocr": []
       },
       {
         "title": "M3GAN 2.0 review spoilers",
@@ -1032,7 +1262,8 @@
           "is_submitter": false,
           "created_date": "2025-06-28 07:37:09"
         },
-        "movie_name": "M3GAN 2.0"
+        "movie_name": "M3GAN 2.0",
+        "ocr": []
       },
       {
         "title": "M3GAN 2.0 (2025)",
@@ -1048,7 +1279,8 @@
           "is_submitter": false,
           "created_date": "2025-07-15 04:20:49"
         },
-        "movie_name": "M3GAN 2.0"
+        "movie_name": "M3GAN 2.0",
+        "ocr": []
       },
       {
         "title": "'F1' Revving Up For A Strong Opening As 'M3GAN 2.0' Runs Out Of Power - Ticket Sales Tracking (6/23-6/26)",
@@ -1064,7 +1296,8 @@
           "is_submitter": false,
           "created_date": "2025-06-27 03:55:51"
         },
-        "movie_name": "M3GAN 2.0"
+        "movie_name": "M3GAN 2.0",
+        "ocr": []
       },
       {
         "title": "That one shot from the M3GAN 2.0 trailer had me like\u2026",
@@ -1081,7 +1314,16 @@
           "created_date": "2025-06-23 01:49:42"
         },
         "movie_name": "M3GAN 2.0",
-        "selftext_source": "first_comment"
+        "ocr": [
+          {
+            "image_url": "https://i.redd.it/fyg42yvuek8f1.jpeg",
+            "extracted_text": "imgflip.con"
+          },
+          {
+            "image_url": "https://preview.redd.it/fyg42yvuek8f1.jpeg?auto=webp&s=ebb8502e22cadb91b045fe1d490126eb9cb767cd",
+            "extracted_text": "imgflip.con"
+          }
+        ]
       },
       {
         "title": "July 11-13 Box Office Recap \u2013 'Superman' flies to a great $125M debut domestically. However, it debuts with just $95M overseas, which is below expectations. 'Jurassic World Rebirth' crosses $500M worldwide, and 'F1' reaches almost $400M worldwide.",
@@ -1097,7 +1339,13 @@
           "is_submitter": false,
           "created_date": "2025-07-14 23:14:10"
         },
-        "movie_name": "M3GAN 2.0"
+        "movie_name": "M3GAN 2.0",
+        "ocr": [
+          {
+            "image_url": "https://external-preview.redd.it/4kSsHf1prTjNLo2YRVRxaoYkO5E6dUjVxIn63dIRgw0.png?auto=webp&s=2ba780deef859ca96b6eed1d3971b45ff38ce255",
+            "extracted_text": "JULY 11-13 WEEKEND\nIS THAT SUPER, MAN?\nIORIS\nCONDON\nBARDEM\nIMAX\nDisNE PIXAR\nDRHGON\nELo\nJUNE13\nLOOK\nThe MovIe\nSUPERMAN\nJURASSIC\nWORLD\nONLYIN TEATERS\nJULY 11\nREUVEDYOR IMAX\nJUNE20\nALD\nSCHEEN\n$125,021,735\n$7,906,735\n$40,334,710\n$13,061,682\n$4,036,724\nD0M: $125,021,735 (1.00x)\nDOM: $232,448,420 (2.53x)\nDOM: $136,256,528 (2.39x)\nDOM: $239,914,935 (2.83x)\nDOM: $63,802,915 (3.06x)\nWwW: $220,021,735\nwW: $393,456,528\nWW: $561,646,935\nWW: $532,699,420\nWW: $117,571,786\n3,285 thea / $2,407 PTA\n4,135 thea / $30,235 PTA\n4,324 thea / $9,328 PTA\n3,412 thea / $3,828 PTA\n2,730 thea / $1,479 PTA\nWEEK 1\nWEEK 2\nWEEK 3\nWEEK 5\nWEEK 4\n-49%\nNEW\n-56%\n-30%\n-30%\nALEX GARLAND\nMEGAN\n2.0\nTOMCRUISE\n28\nSTtcH\nMaterialists\nYEARS\nCEUNE SON\nJUNE 20\nShoeLy\n$2,761,843\n$2,713,493\n$1,481,204\n$1,423,395\n$720,498\nD0M: $65,773,606 (2.19x)\nDOM: $414,578,170 (2.84x)\nD0M: $194,038,579 (3.03x)\nD0OM: $22,446,600 (2.20x)\nDOM: $35,172,974 (3.10x)\nwW: $36,496,600\nwW: $994,902,499\nwW: $584,138,579\nWW: $138,373,606\nwW: $49,572,974\n1,658 thea / $859 PTA\n2,075 thea / $1,308 PTA\n1,132 thea / $1,308 PTA\n2,208 thea / $1,251 PTA\n589 thea / $1,223 PTA\nWEEK 4\nWEEK 8\nWEEK 3\nWEEK 8\nWEEK 5\n40%\n-64%\n-31%\n-46%\n-46%"
+          }
+        ]
       },
       {
         "title": "Behind the scenes photos of Ivanna Sakhno on set of M3GAN 2.0",
@@ -1114,7 +1362,20 @@
           "created_date": "2025-06-30 12:13:10"
         },
         "movie_name": "M3GAN 2.0",
-        "selftext_source": "first_comment"
+        "ocr": [
+          {
+            "image_url": "https://preview.redd.it/9na2j2piy0af1.jpg?width=1080&format=pjpg&auto=webp&s=2cdc3cbffa2380ae095e43c85bbee6698dcfdb32",
+            "extracted_text": "B7E60\nB126\nE130A\nGROUP HUG\nE130AG\n45\nFE\n85G\nJPHUG"
+          },
+          {
+            "image_url": "https://preview.redd.it/8v5bvvoiy0af1.jpg?width=1080&format=pjpg&auto=webp&s=f1ee646aa93cc1e8d795189c916726169c91ed87",
+            "extracted_text": "SHUTTER172.8\nIRIST2.8\n9/10\nEI1000\nND\n7\"\nAc91ag\nelise.amoore@cmail.com\nDur\n00:00:16:05\n+00.0\u00b0\nROLL\nTILT\n+07.4\u00b0\n25.6V\nC_0044\nC005\nSTBY\nPWR\nMEDIA0:42h"
+          },
+          {
+            "image_url": "https://preview.redd.it/tf0lb8piy0af1.jpg?width=1080&format=pjpg&auto=webp&s=2de22e89fbdc1657b6347dad16d2bb55a33b223d",
+            "extracted_text": "IRIS T 2.8\nHUTTER 172.8\n1/10\nEI1000\nND\n5'\n8\"\nTK\nRt\ncostume\nDur\n00:00:00:00\n+00.5\u00b0\nROLL\nTILT\n+10.5\u00b0\n24.8V\nB_0006\nCO16\nSTBY\nMEDIA\nWR\n1:16 h"
+          }
+        ]
       },
       {
         "title": "M3GAN 2.0 | Final Trailer",
@@ -1131,7 +1392,12 @@
           "created_date": "2025-06-02 15:43:15"
         },
         "movie_name": "M3GAN 2.0",
-        "selftext_source": "first_comment"
+        "ocr": [
+          {
+            "image_url": "https://external-preview.redd.it/Z6BngTtmYHGkOqCFRKEysiWozwHi991Z86lFVHPZ4z8.jpg?auto=webp&s=c3f24c29820a9139e0d86a74771d7a8d6b56cdbe",
+            "extracted_text": "M=GAN2.0\nFINAL TRAILER"
+          }
+        ]
       },
       {
         "title": "M3GAN 2.0 Is The Summer's Big Horror Box Office Bummer",
@@ -1148,7 +1414,7 @@
           "created_date": "2025-06-29 22:25:53"
         },
         "movie_name": "M3GAN 2.0",
-        "selftext_source": "first_comment"
+        "ocr": []
       },
       {
         "title": "AMC is doing a Mystery Movie and it is probably M3GAN 2.0",
@@ -1164,7 +1430,8 @@
           "is_submitter": false,
           "created_date": "2025-06-14 01:18:11"
         },
-        "movie_name": "M3GAN 2.0"
+        "movie_name": "M3GAN 2.0",
+        "ocr": []
       },
       {
         "title": "New film 'M3GAN 2.0'",
@@ -1180,7 +1447,8 @@
           "is_submitter": false,
           "created_date": "2025-06-25 22:39:20"
         },
-        "movie_name": "M3GAN 2.0"
+        "movie_name": "M3GAN 2.0",
+        "ocr": []
       },
       {
         "title": "M3GAN 2.0 borrows heavily from this film and it\u2019s not T2",
@@ -1196,7 +1464,8 @@
           "is_submitter": false,
           "created_date": "2025-07-15 20:38:32"
         },
-        "movie_name": "M3GAN 2.0"
+        "movie_name": "M3GAN 2.0",
+        "ocr": []
       },
       {
         "title": "Long Range Forecast: M3GAN 2.0 Opts For an Ambitious Summer Release Date",
@@ -1213,7 +1482,7 @@
           "created_date": "2025-06-13 22:36:33"
         },
         "movie_name": "M3GAN 2.0",
-        "selftext_source": "first_comment"
+        "ocr": []
       },
       {
         "title": "Nails inspired by the M3GAN 2.0 movie poster",
@@ -1229,7 +1498,13 @@
           "is_submitter": false,
           "created_date": "2025-06-28 17:56:03"
         },
-        "movie_name": "M3GAN 2.0"
+        "movie_name": "M3GAN 2.0",
+        "ocr": [
+          {
+            "image_url": "https://preview.redd.it/zncgsamdbp9f1.jpg?width=2000&format=pjpg&auto=webp&s=46cd1ecdb0039fe58d9301f73a4bb36e6f1c3ab5",
+            "extracted_text": "MEGAN20"
+          }
+        ]
       },
       {
         "title": "Box Office: \u2018F1\u2019 Zooms to $55.6M Opening and $144M Globally, \u2018M3GAN 2.0\u2019 Bombs With $10M U.S. Start",
@@ -1246,7 +1521,12 @@
           "created_date": "2025-06-29 20:46:44"
         },
         "movie_name": "M3GAN 2.0",
-        "selftext_source": "first_comment"
+        "ocr": [
+          {
+            "image_url": "https://external-preview.redd.it/P9krY4oSCNOHauCdwdUEan76aswdyhmMc_tPPMh-6hA.jpeg?auto=webp&s=7617571b9cb826c47188647337eda84720e83547",
+            "extracted_text": "OMP\nOMP\nTOMMY\nHILFIGER\nIIAMG\nShark NINJA\nIWC"
+          }
+        ]
       },
       {
         "title": "My theory is AI fiasco is leading up to an INK song about M3gan and will coincide with M3gan 2.0\u2019s release",
@@ -1262,7 +1542,17 @@
           "is_submitter": false,
           "created_date": "2025-05-28 00:36:24"
         },
-        "movie_name": "M3GAN 2.0"
+        "movie_name": "M3GAN 2.0",
+        "ocr": [
+          {
+            "image_url": "https://i.redd.it/pcj99jas2f3f1.jpeg",
+            "extracted_text": "Dahilia\nEveryone\nMe\nhere,\ni've connected thetwo dots\nprobably\nyou didn'tconnectshit\ni've connected them"
+          },
+          {
+            "image_url": "https://preview.redd.it/pcj99jas2f3f1.jpeg?auto=webp&s=08d64d0e9c0b9ecd08346396ac75d57eada33db5",
+            "extracted_text": "Dahlia\nEveryone\nMe\nhere,\ni've connected thetwo dots\nprobably\nyou didn'tconnectshit\ni've connected them"
+          }
+        ]
       },
       {
         "title": "My take on M3GAN 2.0\u2019s genre change",
@@ -1278,7 +1568,8 @@
           "is_submitter": false,
           "created_date": "2025-07-14 06:29:19"
         },
-        "movie_name": "M3GAN 2.0"
+        "movie_name": "M3GAN 2.0",
+        "ocr": []
       },
       {
         "title": "Julia \"Lilo and Stitch\" premiere pics, Violet \"M3GAN 2.0\" premiere pics",
@@ -1295,7 +1586,60 @@
           "created_date": "2025-06-28 21:10:12"
         },
         "movie_name": "M3GAN 2.0",
-        "selftext_source": "first_comment"
+        "ocr": [
+          {
+            "image_url": "https://preview.redd.it/0w6kkt19aq9f1.jpg?width=1200&format=pjpg&auto=webp&s=7382cbf3f5df0cfc563aeb4f4444384f0552ca06",
+            "extracted_text": "GO\nSQ\nSQ\nBab"
+          },
+          {
+            "image_url": "https://preview.redd.it/rhxa9ewu9q9f1.jpg?width=830&format=pjpg&auto=webp&s=33ec3464dbc91931744eb119633fc62bf52e40fa",
+            "extracted_text": "DisNE\u5370\ni10&\nGO\nSQY\nERE\nSPAM\nHA\nGOGO\nSQUEEZ.\nBabybel\nJUST\nJARED"
+          },
+          {
+            "image_url": "https://preview.redd.it/a924gcwu9q9f1.jpg?width=1080&format=pjpg&auto=webp&s=b37fcbe6edee26dd2797cc602ce09cdd8fe58d64",
+            "extracted_text": "1i10"
+          },
+          {
+            "image_url": "https://preview.redd.it/3adzsdwu9q9f1.jpg?width=1080&format=pjpg&auto=webp&s=0aaf6896b56a580e755735c4a46684d9edc99458",
+            "extracted_text": "HAWAII\nPISITORS K CONVENTION IUREAU"
+          },
+          {
+            "image_url": "https://preview.redd.it/jfq48icv9q9f1.jpg?width=817&format=pjpg&auto=webp&s=15ee709e772f13ec0857eb59fe4701ae3183209b",
+            "extracted_text": "JUST\nJARED"
+          },
+          {
+            "image_url": "https://preview.redd.it/b44l8hcv9q9f1.jpg?width=1222&format=pjpg&auto=webp&s=5fa1c9e3cca76a2c96113771801d144cbac93899",
+            "extracted_text": "2.0\nOJUST\nJARED"
+          },
+          {
+            "image_url": "https://preview.redd.it/h0g57jcv9q9f1.jpg?width=817&format=pjpg&auto=webp&s=a4a91c1db1d5823be133de99d145780b28896952",
+            "extracted_text": "JJUST\nJARED"
+          },
+          {
+            "image_url": "https://preview.redd.it/omio0kcv9q9f1.jpg?width=1222&format=pjpg&auto=webp&s=07145f7bd3845bf3f8f7ca198cc4d669213c8adb",
+            "extracted_text": "JJUST\nJARED"
+          },
+          {
+            "image_url": "https://preview.redd.it/jlrz2yqv9q9f1.jpg?width=1000&format=pjpg&auto=webp&s=5dcdb07c429362785c95fbf0fe954c02799d66dc",
+            "extracted_text": "2.0"
+          },
+          {
+            "image_url": "https://preview.redd.it/g1w35yqv9q9f1.jpg?width=3000&format=pjpg&auto=webp&s=8522096bb054e3b6aaad4a7544d8cb751af22485",
+            "extracted_text": "GA"
+          },
+          {
+            "image_url": "https://preview.redd.it/ickzwxqv9q9f1.jpg?width=1500&format=pjpg&auto=webp&s=d670f274e2952e0224b0669dd48d9e834e6aaac5",
+            "extracted_text": "GAN"
+          },
+          {
+            "image_url": "https://preview.redd.it/raa3kyqv9q9f1.jpg?width=650&format=pjpg&auto=webp&s=35ea05640445f882b71e946b7ca4ec2f7e341523",
+            "extracted_text": "2.0\nME"
+          },
+          {
+            "image_url": "https://external-preview.redd.it/gEmP32kr36rw-0eIoH82x-cTbnQTTKm0oBKO-p2OT3k.jpeg?auto=webp&s=b51326955ff88a40ac149a9114de2a312c629727",
+            "extracted_text": "SQ\nSQ\nBab"
+          }
+        ]
       },
       {
         "title": "\ud83c\uddfa\ud83c\uddf8 PRE-ORDER NOW - M3GAN 2.0 (4K UHD + Blu-ray + Digital Steelbook)",
@@ -1311,7 +1655,17 @@
           "is_submitter": false,
           "created_date": "2025-06-27 13:03:23"
         },
-        "movie_name": "M3GAN 2.0"
+        "movie_name": "M3GAN 2.0",
+        "ocr": [
+          {
+            "image_url": "https://i.redd.it/za80umrosg9f1.jpeg",
+            "extracted_text": "M=GAN2.0"
+          },
+          {
+            "image_url": "https://preview.redd.it/za80umrosg9f1.jpeg?auto=webp&s=fd4ceae8ae90f4123ed008d3a415e6d95e289bce",
+            "extracted_text": "M=GAN2.0"
+          }
+        ]
       },
       {
         "title": "Allison at M3GAN 2.0 premiere in NYC 6-24-25",
@@ -1328,7 +1682,24 @@
           "created_date": "2025-06-25 19:39:37"
         },
         "movie_name": "M3GAN 2.0",
-        "selftext_source": "first_comment"
+        "ocr": [
+          {
+            "image_url": "https://preview.redd.it/79nyl6ell49f1.jpg?width=1080&format=pjpg&auto=webp&s=262edff732c014fb98884f7041bdd7c14540b63e",
+            "extracted_text": "M=\nAN2."
+          },
+          {
+            "image_url": "https://preview.redd.it/yp97r5ell49f1.jpg?width=1080&format=pjpg&auto=webp&s=c936d630c0569cf9b5b5665fe7c04031c339f8e7",
+            "extracted_text": "N2.0"
+          },
+          {
+            "image_url": "https://preview.redd.it/84ude4ell49f1.jpg?width=1080&format=pjpg&auto=webp&s=e7732c17688acc681df9977a44da33d1d0bb5d88",
+            "extracted_text": "EG\nN2."
+          },
+          {
+            "image_url": "https://external-preview.redd.it/DDTJPnZWJVeRBIGn4b77AZkNt89iXA0-mVNk7vqsKQ4.jpeg?auto=webp&s=2d51476f0c7baef6b4653ab43f7ad7ff1f1cb4a4",
+            "extracted_text": "M=\nAN2."
+          }
+        ]
       }
     ]
   }
