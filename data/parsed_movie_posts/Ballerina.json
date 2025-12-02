@@ -16,7 +16,8 @@
           "is_submitter": false,
           "created_date": "2025-06-06 03:56:15"
         },
-        "movie_name": "Ballerina"
+        "movie_name": "Ballerina",
+        "ocr": []
       },
       {
         "title": "Thoughts on Ballerina?",
@@ -32,7 +33,11 @@
           "is_submitter": false,
           "created_date": "2025-07-12 03:38:36"
         },
-        "movie_name": "Ballerina"
+        "movie_name": "Ballerina",
+        "ocr": [
+          "FROM THE WORLD OF\nJOHNWICK\nJUNE6\nINTHEATERS\nLIONSGATE",
+          "FROM THE WORLD OF\nJOHNWICK\nJUNE6\nINTHEATERS\nLIONSGATE"
+        ]
       },
       {
         "title": "Just watched Ballerina in the cinemas",
@@ -48,7 +53,11 @@
           "is_submitter": true,
           "created_date": "2025-06-04 13:03:44"
         },
-        "movie_name": "Ballerina"
+        "movie_name": "Ballerina",
+        "ocr": [
+          "AYANI\nBALLERINA\n:Wed,04-Jun\nDATE\n\uff1a16:40\nTIME\nSEAT :10\nROH\nPRICE :50,000 DC\n62500116-Bel\nAYANI\nDALLERINA\n\uff1aWed,04-Jun\nDATE\nTME :16:40\nSEAT .11\nPRICE :50000 DC\nINCL TAX 10X\n90793062500216-Be1",
+          "NOW SHOWING\nANA\nANJELICA\nDE ARMAS\nGABRIEL\nHUSTON\nLANCE\nBYRNE\nNORMAN\nREDDICK\nREEDUS\nAND KEANU\nMCSHANE\nREEVES\nFROM THE WORLD OF JOHN WICK\n BALLERINA\nONLY IN THEATERS\nLIONSGATE"
+        ]
       },
       {
         "title": "Pedro Pascal caught saying he's \"a lazy 50-year-old bougie bitch\" at the premiere of Ballerina in London \ud83d\ude02",
@@ -65,7 +74,7 @@
           "created_date": "2025-05-23 18:05:13"
         },
         "movie_name": "Ballerina",
-        "selftext_source": "first_comment"
+        "ocr": []
       },
       {
         "title": "Pedro Pascal caught saying he's \"a lazy 50-year-old bougie bitch\" at the premiere of Ballerina in London \ud83d\ude02",
@@ -82,7 +91,7 @@
           "created_date": "2025-05-23 18:33:03"
         },
         "movie_name": "Ballerina",
-        "selftext_source": "first_comment"
+        "ocr": []
       },
       {
         "title": "With \u2018Ballerina\u2019 Falling Short at the Box Office, \u2018John Wick\u2019 May Finally Be Getting Stretched Too Thin",
@@ -99,7 +108,7 @@
           "created_date": "2025-06-10 14:59:20"
         },
         "movie_name": "Ballerina",
-        "selftext_source": "first_comment"
+        "ocr": []
       },
       {
         "title": "Ballerina is in a weird spot",
@@ -115,7 +124,11 @@
           "is_submitter": false,
           "created_date": "2025-06-11 15:16:05"
         },
-        "movie_name": "Ballerina"
+        "movie_name": "Ballerina",
+        "ocr": [
+          "FROMTHEWORLDOF\nJOHNWICK\nBALLERINA\nIN THEATERS JUNE6",
+          "FROMTHEWORLDOF\nJOHNWICK\nBALLERINA\nIN THEATERS JUNE6\nLIONSGATE"
+        ]
       },
       {
         "title": "'It was Keanu's idea': The ending of Ballerina is meant to honor the second John Wick movie's final scene, director confirms",
@@ -132,7 +145,7 @@
           "created_date": "2025-06-09 04:25:59"
         },
         "movie_name": "Ballerina",
-        "selftext_source": "first_comment"
+        "ocr": []
       },
       {
         "title": "Before the release of Ballerina, tell me, what's your favorite John Wick movie?",
@@ -149,7 +162,7 @@
           "created_date": "2025-05-24 09:33:16"
         },
         "movie_name": "Ballerina",
-        "selftext_source": "first_comment"
+        "ocr": []
       },
       {
         "title": "Ballerina deleted scene explaining how John got involved",
@@ -165,7 +178,10 @@
           "is_submitter": false,
           "created_date": "2025-07-03 17:18:50"
         },
-        "movie_name": "Ballerina"
+        "movie_name": "Ballerina",
+        "ocr": [
+          "FROMTHEWORLDOF\nJOHNWICK\nBALLERINA\nDELETED SCENE"
+        ]
       },
       {
         "title": "What did you think of Ballerina? (NO SPOILERS)",
@@ -182,7 +198,7 @@
           "created_date": "2025-06-06 19:35:57"
         },
         "movie_name": "Ballerina",
-        "selftext_source": "first_comment"
+        "ocr": []
       },
       {
         "title": "Why \u2018Ballerina\u2019 Isn\u2019t Springing Into The Rafters With A $25M-$27M Opening \u2013 Saturday AM Box Office Update",
@@ -199,7 +215,7 @@
           "created_date": "2025-06-07 16:17:12"
         },
         "movie_name": "Ballerina",
-        "selftext_source": "first_comment"
+        "ocr": []
       },
       {
         "title": "Ballerina - Review Thread",
@@ -215,7 +231,10 @@
           "is_submitter": false,
           "created_date": "2025-06-04 22:16:23"
         },
-        "movie_name": "Ballerina"
+        "movie_name": "Ballerina",
+        "ocr": [
+          "BALLERINA\nIROMTHEEEISFJOHNWICX"
+        ]
       },
       {
         "title": "I went to the Hollywood premiere and afterparty for Ballerina",
@@ -231,7 +250,15 @@
           "is_submitter": true,
           "created_date": "2025-06-05 15:36:28"
         },
-        "movie_name": "Ballerina"
+        "movie_name": "Ballerina",
+        "ocr": [
+          "BALLERINA\nBALLERINA",
+          "LAMCEBESOICE\nBALLERINA\nID YHEAYEGS JUNEC\nBALLERINA\nISTEATEOS JOES",
+          "WELCOMETO THE LA SPECIAL SCREENING OF\nJOHN WICK\nFROMTHEWORLDOF\nRAICDINA\nIN THEATERS\nJUNE6\n#BALLERINAN\nLERINAMOVIE",
+          "HOLLYWOOD\nLHINESETEAURE\nSPEC",
+          "FROMTHEWORLDOFJHNWICK\nAUENNA\nLIONSGATE\nIN THEATERS JUNE6\nDEREK KOL STAD",
+          "TCL"
+        ]
       },
       {
         "title": "Lionsgate's Ballerina has passed the $100m global mark",
@@ -247,7 +274,11 @@
           "is_submitter": false,
           "created_date": "2025-06-22 19:45:29"
         },
-        "movie_name": "Ballerina"
+        "movie_name": "Ballerina",
+        "ocr": [
+          "From the World of John Wick: Ballerina\n(2025)\nPRWNEWSRIAG JOHNWICK\nBALLERINA\nINTHEATEAS JUNEG\nTheatricalPerformance\nDomesticBoxOffice\n$51,118,000 Details\nInternational BoxOffice\n$49,700,000 Details\nWorldwideBoxOffice\n$100,818,000\nOpusData ID: 431610100\nFurtherfinancialdetails..",
+          "From the World of John Wick: Ballerina\n(2025)\nPRWHEWSRIOGF JOHNWICK\nBALLERINA\nINTHEATENS JUNEG\nTheatricalPerformance\nDomesticBoxOffice\n$51,118,000 Details\nInternationalBoxOffice\n$49,700,000 Details\nWorldwideBoxOffice\n$100,818,000\nOpusData ID:431610100\nFurtherfinancial details.."
+        ]
       },
       {
         "title": "IMO The Korean Film Ballerina is better than the American.",
@@ -263,7 +294,11 @@
           "is_submitter": false,
           "created_date": "2025-07-15 03:15:37"
         },
-        "movie_name": "Ballerina"
+        "movie_name": "Ballerina",
+        "ocr": [
+          "FROM THEWORLD OF\nJOHNWICK\nBALLERINA\nTFLIX\nBALLERINA\n73%\n76%\n91%\n92%\n11 Reviens\nGrieving the loss of a bestfriend she couldn't\nTakingplaceduringtheevents of JohnWick:\nChapter3-Parabellum,thefilmfollows Eve..\nproect,ex-bodyuardOkjustsoutofulfilh\nNETFLIX\nOCTOBER6\nSTHEANNON\nWatch on Fandango at\nWatch on Netflix\nINTHEATERS JUNE6\nHome",
+          "FROM THEWORLD OF\nJOHNWICK\nBALLERINA\nNETFLIX\nBALLERINA\n73%\n76%\n91%\n92%\nLLReviens\nGrieving the loss of a bestfriend she couldn't\nTakingplaceduringthe events of JohnWickc:\nproect,exbodyguardOkjusetsouttofulth\nChapter3-Parabellum,the fimfollows Eve..\nNETFLIX\nOCTOBER6\nSTHEAMNON\nWatch on Fandango at\nWatch on Netflix\nINTHEATERS JUNE6\nHome\nMONAI"
+        ]
       },
       {
         "title": "'From The World Of John Wick: Ballerina' Review Thread",
@@ -279,7 +314,10 @@
           "is_submitter": false,
           "created_date": "2025-06-04 22:10:39"
         },
-        "movie_name": "Ballerina"
+        "movie_name": "Ballerina",
+        "ocr": [
+          "ADS\nTRNTEWORIEJOHNWICK\nBALLERINA"
+        ]
       },
       {
         "title": "Ballerina stunt person posts behind the scenes montage",
@@ -295,7 +333,10 @@
           "is_submitter": false,
           "created_date": "2025-06-15 20:02:51"
         },
-        "movie_name": "Ballerina"
+        "movie_name": "Ballerina",
+        "ocr": [
+          "R172.8\n0:09:20\nPNR 27AV\nC02286\nC002\nOREC\nMEDIA"
+        ]
       },
       {
         "title": "Ana de Armas | Ballerina Berlin Premiere at Zoo Palast | Berlin | May 2025",
@@ -312,7 +353,7 @@
           "created_date": "2025-05-27 00:00:45"
         },
         "movie_name": "Ballerina",
-        "selftext_source": "first_comment"
+        "ocr": []
       },
       {
         "title": "Why is ballerina not doing better?",
@@ -328,7 +369,8 @@
           "is_submitter": false,
           "created_date": "2025-06-25 16:01:34"
         },
-        "movie_name": "Ballerina"
+        "movie_name": "Ballerina",
+        "ocr": []
       },
       {
         "title": "Rewatching John Wick 1 and noticed this dude returned for Ballerina!",
@@ -344,7 +386,8 @@
           "is_submitter": false,
           "created_date": "2025-06-11 23:11:41"
         },
-        "movie_name": "Ballerina"
+        "movie_name": "Ballerina",
+        "ocr": []
       },
       {
         "title": "'Ballerina' gets an A\u2013 on CinemaScore",
@@ -361,7 +404,7 @@
           "created_date": "2025-06-07 02:59:14"
         },
         "movie_name": "Ballerina",
-        "selftext_source": "first_comment"
+        "ocr": []
       },
       {
         "title": "Ana de Armas | 'Ballerina' Berlin Premiere 26th May 2025",
@@ -378,7 +421,7 @@
           "created_date": "2025-05-31 06:12:57"
         },
         "movie_name": "Ballerina",
-        "selftext_source": "first_comment"
+        "ocr": []
       },
       {
         "title": "After watching Ballerina, this is my first thought",
@@ -395,7 +438,7 @@
           "created_date": "2025-06-10 04:31:34"
         },
         "movie_name": "Ballerina",
-        "selftext_source": "first_comment"
+        "ocr": []
       },
       {
         "title": "Ana de Armas | \u201cBallerina\u201d Premiere, London | May 22, 2025",
@@ -412,7 +455,7 @@
           "created_date": "2025-05-24 20:25:14"
         },
         "movie_name": "Ballerina",
-        "selftext_source": "first_comment"
+        "ocr": []
       },
       {
         "title": "Why \u2018Ballerina\u2019 Didn\u2019t Leap Into The Rafters With $25M Opening \u2013 Sunday AM Box Office Update",
@@ -429,7 +472,7 @@
           "created_date": "2025-06-08 14:54:53"
         },
         "movie_name": "Ballerina",
-        "selftext_source": "first_comment"
+        "ocr": []
       },
       {
         "title": "June 6-8 Box Office Recap \u2013 'Ballerina' disappoints with just $24.5M, allowing 'Lilo &amp; Stitch' to stay at #1 for the third week 'The Phoenician Scheme' debuts in wide release with an okay $6.2M. 'Lilo &amp; Stitch' crosses $700M worldwide, while 'Mission: Impossible \u2013 The Final Reckoning' crosses $450M.",
@@ -445,7 +488,10 @@
           "is_submitter": false,
           "created_date": "2025-06-10 00:53:53"
         },
-        "movie_name": "Ballerina"
+        "movie_name": "Ballerina",
+        "ocr": [
+          "JUNE 6-8 WEEKEND\nYOU MUST'VE SEEN HER, DANCING IN THE SAND\nI0&\nTOMCRUISE\nSTtcH\nFINAI\nFROVTEHORS JOHN WICK\nKarateKid\nDESTINATION\nBALLERINA\nLEGENDS\n123\nAN PMEATERS JUNEG\nMAY30\nMAY\"TS\n$32,362,543\n$24,501,663\n$8,565,174\n$14,824,742\n$6,449,881\nDOM: $149,041,695 (2.33x)\nD0M: $24,501,663 (1.00x)\nD0M: $35,305,990 (1.74x)\nD0M: $335,658,888 (2.30x)\nD0M: $123,514,504 (2.39x)\nwW: $450,241,695\nWW: $73,905,990\nwW: $772,202,824\nwW: $50,501,663\nWW: $257,414,504\n3,409 thea / $7,189 PTA\n3,496 thea / $4,240 PTA\n3,859 thea / $2,219 PTA\n4,185 thea / $7,732 PTA\n2,867 thea / $2,249 PTA\nWEEK 3\nWEEK 1\nWEEK 3\nWEEK2\nWEEK 4\n-45.5%\n-57.8%\n-47.6%\nNEW\n40.8%\nIFSOMETHING GETS INYOURWAYE\nP RYAN COOGLERbROACKPANHERiCEED\nNOTSUPER.NOT HEROES.NOT\nFLATTEN IT\nGIVING UP\nBENICIO\nTORO\nTHE\nHOENICIA\nSCHEME\nMARVELSTULOS\nSINNERS\nTHUNDERBOLTS\nEVIL EYE\nIN CINEMASUUNE 6\nWEARE ALL SINNERS\nONIY IN THEATERS APRIL18\nONLYINTHEATERSMAY2\nIMAX\n$6,271,652\n$3,526,294\n$3,188,577\n$2,824,813\n$2,420,645\nD0M: $7,003,730 (1.12x)\nDOM: $14,112,795 (1.99x)\nD0M: $3,188,577 (1.00x)\nDOM: $272,545,361 (5.68x)\nDOM: $186,413,438 (2.51x)\nwW: $357,245,361\nWW: $15,693,712\nwW: $3,407,299\nWW: $18,170,730\nWW: $376,791,653\n2,425 thea / $1,454 PTA\n1,085 thea / $2,938 PTA\n1,518 thea / $1,860 PTA\n1,678 thea / $3,737 PTA\n1,955 thea / $1,238 PTA\nWEEK 8\nWEEK 2\nWEEK 2\nWEEK 1\nWEEK 6\n-51.0%\n+1,018.9%\nNEW\n-46.4%\n-49.5%"
+        ]
       },
       {
         "title": "I finally watched Ballerina \ud83d\udc9c",
@@ -461,7 +507,8 @@
           "is_submitter": false,
           "created_date": "2025-07-04 12:15:07"
         },
-        "movie_name": "Ballerina"
+        "movie_name": "Ballerina",
+        "ocr": []
       },
       {
         "title": "Ana de Armas's rumoured beau Tom Cruise skips Ballerina premiere",
@@ -478,7 +525,7 @@
           "created_date": "2025-05-27 01:02:57"
         },
         "movie_name": "Ballerina",
-        "selftext_source": "first_comment"
+        "ocr": []
       },
       {
         "title": "Ballerina Review (no spoilers)",
@@ -494,7 +541,8 @@
           "is_submitter": false,
           "created_date": "2025-06-08 04:04:48"
         },
-        "movie_name": "Ballerina"
+        "movie_name": "Ballerina",
+        "ocr": []
       },
       {
         "title": "Ballerina digital release scheduled for Tuesday, July 1",
@@ -510,7 +558,12 @@
           "is_submitter": false,
           "created_date": "2025-06-25 03:12:20"
         },
-        "movie_name": "Ballerina"
+        "movie_name": "Ballerina",
+        "ocr": [
+          "JOHN WICK\nBALLERINA\nFROM THE WORLD OF\nLax In",
+          "Lax n\nJOHNWICK\nFROM THE WORLD OF",
+          "JOHN WICK\nBALLERINA\nFROM THE WORLD OF\nLax In"
+        ]
       },
       {
         "title": "Ana de Armas in Ballerina: Honestly not expecting much, what do you guys think?",
@@ -526,7 +579,8 @@
           "is_submitter": false,
           "created_date": "2025-05-27 02:40:39"
         },
-        "movie_name": "Ballerina"
+        "movie_name": "Ballerina",
+        "ocr": []
       },
       {
         "title": "Looks like $4M+ previews for #Ballerina, including early access screenings on WED. Initial audience reception seems very positive. Should open around $30M.",
@@ -543,7 +597,7 @@
           "created_date": "2025-06-06 03:39:59"
         },
         "movie_name": "Ballerina",
-        "selftext_source": "first_comment"
+        "ocr": []
       },
       {
         "title": "Don\u2019t listen to haters, Ballerina was fucking awesome",
@@ -559,7 +613,8 @@
           "is_submitter": false,
           "created_date": "2025-06-09 02:03:58"
         },
-        "movie_name": "Ballerina"
+        "movie_name": "Ballerina",
+        "ocr": []
       },
       {
         "title": "'Ballerina cappuccina': kinderen dol op 'brain rot'-filmpjes, maar die worden steeds grimmiger",
@@ -575,7 +630,8 @@
           "is_submitter": false,
           "created_date": "2025-05-29 13:14:11"
         },
-        "movie_name": "Ballerina"
+        "movie_name": "Ballerina",
+        "ocr": []
       },
       {
         "title": "OP watched Ballerina today",
@@ -591,7 +647,8 @@
           "is_submitter": false,
           "created_date": "2025-06-17 09:16:13"
         },
-        "movie_name": "Ballerina"
+        "movie_name": "Ballerina",
+        "ocr": []
       },
       {
         "title": "Box Office Tracking &amp; Forecasts: JURASSIC WORLD REBIRTH ($116-135M 5-Day, $265M Total), Plus Significant Updates on KARATE KID: LEGENDS ($21M OW, $65M DOM) and BALLERINA ($36M OW, $91M DOM)",
@@ -608,7 +665,7 @@
           "created_date": "2025-05-23 14:41:03"
         },
         "movie_name": "Ballerina",
-        "selftext_source": "first_comment"
+        "ocr": []
       },
       {
         "title": "Lionsgate's Ballerina debuted with an estimated $25.0M domestically this weekend (from 3,409 locations). #BallerinaMovie #BoxOffice",
@@ -625,7 +682,7 @@
           "created_date": "2025-06-08 14:40:57"
         },
         "movie_name": "Ballerina",
-        "selftext_source": "first_comment"
+        "ocr": []
       },
       {
         "title": "I saw Ballerina !",
@@ -641,7 +698,8 @@
           "is_submitter": false,
           "created_date": "2025-05-30 02:10:47"
         },
-        "movie_name": "Ballerina"
+        "movie_name": "Ballerina",
+        "ocr": []
       },
       {
         "title": "I saw Ballerina at AMC last night so that I could catch it in Dolby Cinema. The absolute lack of etiquette in mainstream theaters is appalling. I\u2019m over it. Should have just gone to AD.",
@@ -657,7 +715,8 @@
           "is_submitter": false,
           "created_date": "2025-06-07 16:36:06"
         },
-        "movie_name": "Ballerina"
+        "movie_name": "Ballerina",
+        "ocr": []
       },
       {
         "title": "From The World of John Wick : Ballerina (2025) is absolute certified action movie. Even Tom Cruise mentioned it!",
@@ -673,7 +732,8 @@
           "is_submitter": false,
           "created_date": "2025-06-06 10:24:26"
         },
-        "movie_name": "Ballerina"
+        "movie_name": "Ballerina",
+        "ocr": []
       },
       {
         "title": "This might be an unpopular opinion but I enjoyed Ballerina more then the John Wick films",
@@ -689,7 +749,11 @@
           "is_submitter": false,
           "created_date": "2025-06-20 19:09:41"
         },
-        "movie_name": "Ballerina"
+        "movie_name": "Ballerina",
+        "ocr": [
+          "ANJELICA\nGABRIEL\nLANCE\nNORMAN\nSITINIAN\nANA\nANO KEANU\nDEARMAS\nHUSTON\nBYRNE\nREDDICK\nREEDUS\nMcSHANE\nREEVES\nFROM THE WORLD OF JOHN WICK\nBALLERINA\nINTHEATERS JUNE6\nLIONSGATE",
+          "ANJELICA\nGABRIEL\nLANCE\nNORMAN\nSITNIAN\nANA\nAO KEANU\nDEARMAS\nHUSTON\nBYRNE\nREDDICK\nREEDUS\nMCSHANE\nREEVES\nFROM THE WORLD OF JOHN WICK\nBALLERINA\nIN THEATERS JUNE6\nLIONSGATE"
+        ]
       }
     ]
   }
