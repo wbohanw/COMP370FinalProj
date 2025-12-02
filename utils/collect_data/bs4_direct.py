@@ -1,12 +1,13 @@
 import requests
 from bs4 import BeautifulSoup
 from typing import Dict, List, Optional
-#from rapidocr_onnxruntime import RapidOCR
+from rapidocr_onnxruntime import RapidOCR
 from io import BytesIO
 from PIL import Image
 import json
 import time
 from urllib.parse import urlparse, urljoin
+import numpy as np
 
 
 class RedditScraperDirect:
@@ -15,7 +16,7 @@ class RedditScraperDirect:
         self.session.headers.update({
             'User-Agent': user_agent or 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
         })
-        #self.ocr = RapidOCR() #for image comments
+        self.ocr = RapidOCR() #for image comments
     
     def scrape_post(self, post_url: str, delay: float = 1.0) -> Dict:
         try:
@@ -187,10 +188,10 @@ class RedditScraperDirect:
             elif image.mode != 'RGB':
                 image = image.convert('RGB')
             
-            result, _ = self.ocr(image)
+            result, _ = self.ocr(np.array(image))
             
             if result:
-                text_lines = [f"{line[1]} (confidence: {line[2]:.2f})" for line in result]
+                text_lines = [f"{line[1]} (confidence: {float(line[2]):.2f})" for line in result]
                 return '\n'.join(text_lines)
             
             return None
@@ -233,4 +234,8 @@ def scrape_reddit_post(post_url: str, user_agent: Optional[str] = None) -> Dict:
 
 if __name__ == "__main__":
     print("please see example.py")
+
+    scraper = RedditScraperDirect()
+    post_data = scraper.scrape_post('https://www.reddit.com/r/CuratedTumblr/comments/1lyize7/the_success_of_kpop_demon_hunters_validates_the/')
+    print(post_data['ocr_results'])
 
