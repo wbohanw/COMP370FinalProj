@@ -1,4 +1,4 @@
-for each No. assigned the topics according to the definition of 8 topics given:
+
 
 1. Plot / Story
 
@@ -33,8 +33,11 @@ Posts about the soundtrack, score, songs, composers, or how the music affects sc
 
 Posts where fans create memes, jokes, edits, artwork, fan posters, or humorous commentary based on the movie.
 
-Here is the post: 
+Here is the posts: 
 
 
 34? So does title, or like comments is the talking about like text
 49...need to verify
+
+some summer post pride events
+some esport 213
