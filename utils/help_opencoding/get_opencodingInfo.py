@@ -18,4 +18,4 @@ def extract_opencoding(input_csv, output_csv, fill_value="Empty"):
     # op_df.to_csv(output_csv, index=False)
      
 if __name__ == "__main__":
-    extract_opencoding("../../data/open_coding/last_200_opencoding1.csv", "../../data/open_coding/opencoding.csv")
+    extract_opencoding("../../data/open_coding/last_200_opencoding1.csv", "../../data/open_coding/opencoding1.csv")
