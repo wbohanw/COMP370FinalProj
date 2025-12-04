@@ -1,14 +1,14 @@
 1. Plot / Story
 
-Posts talking about the movie’s storyline, events, twists, pacing, ending, narrative logic, or how well the plot is written.
+Posts about the movie’s storyline, events, twists, pacing, ending, narrative logic, or how well the plot is written.
 
-2. Acting / Characters
+1. Acting / Characters
 
-Posts focusing on performances, cast, chemistry, character development, casting choices, or how characters are written or portrayed.
+Posts about performances, cast, chemistry, character development, casting choices, or how characters are written or portrayed.
 
 3. Box Office / Financial Performance
 
-Posts discussing money: earnings, budget, opening weekend, projections, flop/hit status, ticket sales, or revenue comparisons.
+Posts about money: earnings, budget, opening weekend, projections, flop/hit status, ticket sales, or revenue comparisons.
 
 4. Marketing / Promotion
 
