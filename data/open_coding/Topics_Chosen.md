@@ -1,5 +1,3 @@
-For each No. assigned the topics according to the definition of 8 topics given, title is prioritized before (text or comments), if review check if plot/story or acting/character before audience reception/ratings:
-
 1. Plot / Story
 
 Posts talking about the movie’s storyline, events, twists, pacing, ending, narrative logic, or how well the plot is written.
@@ -32,7 +30,6 @@ Posts about the soundtrack, score, songs, composers, or how the music affects sc
 
 Posts where fans create memes, jokes, edits, artwork, fan posters, or humorous commentary based on the movie.
 
-Here is the posts: 
 
 
 34? So does title, or like comments is the talking about like text
@@ -42,5 +39,5 @@ some summer post pride events
 some esport 213
 
 
-6. 460: hate watch it without checking them, 472: censorship, 527:poralized comments, 602:
+1. 460: hate watch it without checking them, 472: censorship, 527:poralized comments, 602:
 19: baby in movie checking zombie
