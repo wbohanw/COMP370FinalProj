@@ -7,7 +7,7 @@ def extract_first_417(output_csv):
     required_columns = ['No.']
     for col in required_columns:
         if col not in df.columns:
-            no_col = pd.DataFrame({"No.": range(1, 417 + 1)})
+            no_col = pd.DataFrame({"No.": range(1, 416 + 1)})
             no_col.to_csv(output_csv, index=False)
             return
     

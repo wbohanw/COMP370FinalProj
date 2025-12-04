@@ -1,4 +1,4 @@
-
+For each No. assigned the topics according to the definition of 8 topics given, title is prioritized before (text or comments), if review check if plot/story or acting/character before audience reception/ratings:
 
 1. Plot / Story
 
@@ -22,9 +22,8 @@ Posts about how the movie was made: filming, stunts, directors, crew, sets, on-s
 
 6. Audience Reception / Ratings
 
-Posts talking about viewer opinions: fan reactions, ratings, review scores, Rotten Tomatoes, user comments, or general audience response.
-460: hate watch it without checking them, 472: censorship, 527:poralized comments, 602:
-19: baby in movie checking zombie
+Posts talking about viewer opinions: fan reactions, ratings, review scores, Rotten Tomatoes, user comments, or general audience response to other comments or general life.
+
 7. Music
 
 Posts about the soundtrack, score, songs, composers, or how the music affects scenes or tone.
@@ -41,3 +40,7 @@ Here is the posts:
 
 some summer post pride events
 some esport 213
+
+
+6. 460: hate watch it without checking them, 472: censorship, 527:poralized comments, 602:
+19: baby in movie checking zombie
