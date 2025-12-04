@@ -81,7 +81,7 @@ class RedditSearchScraper:
                     if not (movie_date_range_start <= created_utc < movie_date_range_end):
                         continue
                     
-                    # Filter 3: HIGH relevance to THIS movie
+                    # Filter 2: HIGH relevance to THIS movie
                     if not self.is_highly_relevant_to_movie(title, selftext, movie_name):
                         continue
                     

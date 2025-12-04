@@ -35,10 +35,10 @@ print(data['ocr_results'])     # Text extracted from images
   - `28_Years_Later.json`
   - `Ballerina.json`
   - `Bride_Hard.json`
-  - `Dangerous_Animals.json`
+  - `Jurassic_World_Rebirth.json`
   - `Elio.json`
   - `F1_The_Movie.json`
-  - `Happy_Gilmore_2.json`
+  - `The_Old_Guard_2.json`
   - `How_to_Train_Your_Dragon.json`
   - `Kpop_Demon_Hunters.json`
   - `M3GAN_2.0.json`
