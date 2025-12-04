@@ -29,4 +29,4 @@ def find_empty_topics(input_csv):
         print("No empty or NaN topics found")
         
 if __name__ == "__main__":
-    split_post_to_category("../../data/open_coding/manual_annotation_all_movie_posts.csv", "../../data/open_coding/llm/")
+    split_post_to_category("../../data/open_coding/manual_annotation_all_movie_posts.csv", "../../data/llm/")
